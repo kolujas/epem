@@ -1,1 +1,2 @@
 Interventional image?
+Noticia crear | listar | editar | borrar

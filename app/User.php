@@ -2,6 +2,7 @@
     namespace App;
 
     use App\Models\Noticia;
+    use App\Models\Nivel;
     use Illuminate\Notifications\Notifiable;
     use Illuminate\Contracts\Auth\MustVerifyEmail;
     use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -41,7 +42,6 @@
                 'nombre' => 'required|min:2|max:60',
                 'correo' => 'required|email|max:100|unique:users',
                 'clave' => 'required|min:4|max:40|confirmed',
-                'id_nivel' => 'required|numeric',
             ],'editar' => [],
         ];
 

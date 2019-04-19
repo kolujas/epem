@@ -6,6 +6,11 @@
     use Illuminate\Http\Request;
 
     class AuthController extends Controller{
+        /** Carga la seccion de "Registro de Usuarios". */
+        public function showIngresar(){
+            return view('usuario.ingresar',[]);
+        }
+
         /**
          * Valida y loguea al Usuario.
          * 
@@ -33,10 +38,10 @@
                 $recordar = false;
             }
             
-            if(Auth::attempt(['password' => $input['clave'], 'correo' => $input['dato']], $recordar)){
+            if(Auth::attempt(['password' => $input['clave'], 'correo' => $input['correo']], $recordar)){
                 return redirect()->route('web.panel')->with('status', 'Sesión Iniciada.');
             }else{
-                return redirect()->route('web.inicio')->withInput()->with('status', 'Correo y/o clave incorrectos.');
+                return redirect()->route('auth.showIngresar')->withInput()->with('status', 'Correo y/o clave incorrectos.');
             }
         }
 
@@ -64,15 +69,15 @@
                 'clave.min' => 'La clave no puede tener menos de :min caracteres.',
                 'clave.max' => 'La clave no puede tener más de :max caracteres.',
                 'clave.confirmed' => 'Las claves no son iguales.',
-                'id_nivel.required' => 'El nivel es obligatorio.',
-                'id_nivel.numeric' => 'El nivel debe ser un valor numerico.',
             ]);
     
             $inputData['clave'] = \Hash::make($inputData['clave']);
+
+            $inputData['id_nivel'] = 1;
             
             $usuario = User::create($inputData);
             
-            return redirect()->route('usuario.panel')->with('status', 'Usuario creado correctamente.');
+            return redirect()->route('auth.showIngresar')->with('status', 'Usuario creado correctamente.');
         }
         
         /** Desloguea al Usuario. */
