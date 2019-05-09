@@ -1,3 +1,7 @@
+// Crack
+
 Interventional image?
 Usuario editar
 Noticia crear | listar | editar | borrar
+
+// Kolo

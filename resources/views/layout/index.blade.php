@@ -9,6 +9,7 @@
 
         <!--CSS-->
         <link href="{{ asset('css/index.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
         @yield('css')
 
         <title>@yield('titulo')</title>
@@ -41,5 +42,7 @@
         <main>
             @yield('main')
         </main>
+        <script type="text/javascript" src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/bootstrap/jquery-3.4.1.min.js') }}"></script>
     </body>
 </html>
