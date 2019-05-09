@@ -16,7 +16,7 @@
     </head>
     <body>
         <header>
-            <h1><a href="/">Home</a></h1>
+            <!-- <h1><a href="/">Home</a></h1>
             <nav>
                 <u>
                     @if(!Auth::check())
@@ -30,7 +30,9 @@
                         <li><a href="/salir">Cerrar Sesión</a></li>
                     @endif
                 </u>
-            </nav>
+            </nav> -->
+
+            
         </header>
 
         @if(Session::has('status'))
@@ -42,7 +44,8 @@
         <main>
             @yield('main')
         </main>
-        <script type="text/javascript" src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/bootstrap/jquery-3.4.1.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
+        
     </body>
 </html>
