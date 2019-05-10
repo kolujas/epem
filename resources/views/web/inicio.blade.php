@@ -21,7 +21,7 @@
         <div class="row">
             <div class="nuestros-servicios col-12">
                 <h2 class="text-center">Nuestros servicios</h2>
-                <h3 class="text-center">Cómo podemos ayudarte</h3>
+                <h3 class="text-center h6">Cómo podemos ayudarte</h3>
                 <ul>
                     <li>Proveemos una alimentación sana.</li>
                     <li>Estimulamos la autonomía en las actividades de la vida diaria.</li>
@@ -56,37 +56,39 @@
                     <img src="img/ancianos_piolas.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
+            <div class="contacto">
+             <h2 class="text-center">Contacto</h2>
+                <div class="contacto col-12 my-5 row m-auto">
+                    <form class="col-12">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input class="form-control" id="nombre" type="text" placeholder="Ingresa tu nombre">
+                        </div>
 
-            <div class="contacto col-12 mt-4 mb-5 row">
-                <form class="col-12 m-auto">
-                    <div class="form-group">
-                        <label for="nombre">Nombre</label>
-                        <input class="form-control" id="nombre" type="text" placeholder="Ingresa tu nombre">
-                    </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido</label>
+                            <input class="form-control" id="apellido" type="text" placeholder="Ingresa tu apellido">
+                        </div>
 
-                    <div class="form-group">
-                        <label for="apellido">Apellido</label>
-                        <input class="form-control" id="apellido" type="text" placeholder="Ingresa tu apellido">
-                    </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input class="form-control" id="telefono" type="text" placeholder="Ingresa tu telefono">
+                        </div>
 
-                    <div class="form-group">
-                        <label for="telefono">Teléfono</label>
-                        <input class="form-control" id="telefono" type="text" placeholder="Ingresa tu telefono">
-                    </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
