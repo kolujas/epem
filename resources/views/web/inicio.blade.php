@@ -8,15 +8,12 @@
     Inicio
 @endsection
 
+@section('nav')
+    @component('components.nav')
+    @endcomponent
+@endsection
 
 @section('main')
-    <section>
-        <header>
-        @component('components.nav')
-        @endcomponent
-        </header>
-    </section>
-
     <div class="container">
         <div class="row">
             <div class="nuestros-servicios col-12">
@@ -31,11 +28,14 @@
                 </ul>
                 <img src="img/ancianos_piolas.jpg" class="img-fluid" alt="Responsive image">
             </div>
+
             <div class="col-12">
                 <h2>Creemos en una solución para las familias</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis expedita consectetur facilis tempore, similique voluptatibus quaerat culpa est voluptatum.</p>
             </div>
+
             <button type="button" class="btn btn-primary m-auto">Contactate</button>
+            
             <div class="el-mejor col-12 mt-4">
                 <img src="img/ancianos_piolas.jpg" class="img-fluid" alt="Responsive image">
 
@@ -90,7 +90,9 @@
             </div>
         </div>
     </div>
+@endsection
 
+@section('footer')
     @component('components.footer')
     @endcomponent
 @endsection
