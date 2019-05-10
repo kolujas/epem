@@ -10,29 +10,16 @@
         <!--CSS-->
         <link href="{{ asset('css/index.css') }}" rel="stylesheet">
         <link href="{{ asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         @yield('css')
 
         <title>@yield('titulo')</title>
     </head>
     <body>
         <header>
-            <!-- <h1><a href="/">Home</a></h1>
-            <nav>
-                <u>
-                    @if(!Auth::check())
-                        <li><a href="/ingresar">Ingresar</a></li>
-                        <li><a href="/registrar">Registrarse</a></li>
-                    @else
-                        <li><a href="/panel">Panel</a></li>
-                        @if(Auth::user()->nivel->id_nivel == 2)
-                            <li><a href="/noticia/crear">Crear Noticia</a></li>
-                        @endif
-                        <li><a href="/salir">Cerrar Sesión</a></li>
-                    @endif
-                </u>
-            </nav> -->
-
-            
+            <section>
+                @yield('nav')
+            </section>
         </header>
 
         @if(Session::has('status'))
@@ -44,8 +31,14 @@
         <main>
             @yield('main')
         </main>
+
         <script type="text/javascript" src="{{ asset('js/bootstrap/jquery-3.4.1.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
-        
+
+        <footer>
+            <section>
+                @yield('footer')
+            </section>
+        </footer>
     </body>
 </html>
