@@ -46,33 +46,47 @@
     color: #3D1616;  
 }
 
-.contacto .form-group label,
-.contacto .form-group input,
-.contacto .form-group textarea{
-    height: 2rem;
-    padding: 0;
-    margin: 0;
-    line-height: 2rem;
-}
+/* form */
 
-.contacto .form-group input,
-.contacto .form-group textarea{
-    border-radius: 0;
-    border: none;
-    border-bottom: 2px solid #666;
-    outline: none;
+.contacto form input:focus{
     box-shadow: none;
+    border-color: #57C6AA;
 }
 
-.contacto .form-group input:focus,
-.contacto .form-group textarea:focus{
-    border-color: black;
+.contacto form textarea:focus{
+    box-shadow: none;
+    border-color: #57C6AA;
 }
 
-.contacto .btn{
+.enviarForm{
     background-color: #57C6AA;
-    color: white;
+    color: #fff;
     border: none;
-    outline: none;
-    box-shadow: none;
+}
+
+.enviarForm:hover{
+    background-color: #00ffbf;
+}
+
+input::placeholder{
+    color: #A4A4A4;
+}
+
+
+/* footer */
+
+footer ul i{
+    color: #2B88DD;
+}
+
+footer{
+    background-color: #242424;
+}
+
+footer .redesSociales i{
+    color: #7C7C7C;
+}
+
+.separacionFooter{
+    border-color: #57C6AA;
 }

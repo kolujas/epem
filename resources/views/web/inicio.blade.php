@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="contacto col-12 my-5">
+            <div class="contacto col-12 my-5 contacto">
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <h2 class="text-center text-uppercase h3">Contacto</h2>
@@ -102,33 +102,27 @@
                         <div class="row justify-content-center">
                             <div class="form-group col-12">
                                 <label for="nombre">Nombre</label>
-                                <input class="form-control" id="nombre" type="text" placeholder="Ingresa tu nombre">
-                            </div>
-
-                            <div class="form-group col-12">
-                                <label for="apellido">Apellido</label>
-                                <input class="form-control" id="apellido" type="text" placeholder="Ingresa tu apellido">
+                                <input class="form-control" id="nombre" type="text" placeholder="Nombre">
                             </div>
 
                             <div class="form-group col-12">
                                 <label for="telefono">Teléfono</label>
-                                <input class="form-control" id="telefono" type="text" placeholder="Ingresa tu telefono">
+                                <input class="form-control" id="telefono" type="text" placeholder="Telefono">
                             </div>
 
                             <div class="form-group col-12">
-                                <label for="exampleInputEmail1">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <label for="formEmail">Email</label>
+                                <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Email">
                             </div>
 
                             <div class="form-group col-12">
-                                <label for="exampleFormControlTextarea1">Mensaje</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                                <label for="formMensaje">Mensaje</label>
+                                <textarea class="form-control" id="formMensaje" rows="3" placeholder="Mensaje"></textarea>
                             </div>
                         
                             <div class="col-12">
                                 <div class="row justify-content-center">
-                                    <button type="submit" class="btn w-50">Enviar</button>    
+                                    <button type="submit" class="btn btn-primary w-50 enviarForm">Enviar</button>    
                                 </div>
                             </div>
                         </div>
