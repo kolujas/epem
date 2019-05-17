@@ -37,8 +37,8 @@
         <script type="text/javascript" src="{{ asset('js/bootstrap/jquery-3.4.1.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
 
-        <footer>
-            <section>
+        <footer class="row justify-content-center">
+            <section class="col-10">
                 @yield('footer')
             </section>
         </footer>

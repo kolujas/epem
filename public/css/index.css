@@ -3,3 +3,11 @@
     outline: none !important;
 }
 
+footer{
+    background: #666;
+    color: #111;
+}
+
+footer a{
+    color: #111 !important;
+}
