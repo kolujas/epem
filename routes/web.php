@@ -19,6 +19,11 @@
         });
     });
 
+    /** CorreoController */
+    Route::post('/contactar', 'CorreoController@contactar')->name('correo.contactar');
+
+    Route::get('/gracias', 'CorreoController@gracias')->name('correo.gracias');
+
 /** AuthController */
     Route::get('/ingresar', 'AuthController@showIngresar')->name('auth.showIngresar');
 

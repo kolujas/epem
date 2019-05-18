@@ -98,26 +98,31 @@
                         <h2 class="text-center text-uppercase h3">Contacto</h2>
                     </div>
                     
-                    <form class="col-10">
+                    <form class="col-10" action="/contactar" method="post">
+                        @csrf
                         <div class="row justify-content-center">
                             <div class="form-group col-12">
                                 <label for="nombre">Nombre</label>
-                                <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+                                <input class="form-control" id="nombre" type="text" name="nombre" placeholder="Nombre">
+                                <small>@if($errors->has('nombre')){{ $errors->first('nombre') }}@endif</small>
                             </div>
 
                             <div class="form-group col-12">
                                 <label for="telefono">Teléfono</label>
-                                <input class="form-control" id="telefono" type="text" placeholder="Telefono">
+                                <input class="form-control" id="telefono" type="text" name="telefono" placeholder="Telefono">
+                                <small>@if($errors->has('telefono')){{ $errors->first('telefono') }}@endif</small>
                             </div>
 
                             <div class="form-group col-12">
                                 <label for="formEmail">Email</label>
-                                <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Email">
+                                <input type="email" class="form-control" id="formEmail" name="correo" aria-describedby="emailHelp" placeholder="Email">
+                                <small>@if($errors->has('correo')){{ $errors->first('correo') }}@endif</small>
                             </div>
 
                             <div class="form-group col-12">
                                 <label for="formMensaje">Mensaje</label>
-                                <textarea class="form-control" id="formMensaje" rows="3" placeholder="Mensaje"></textarea>
+                                <textarea class="form-control" id="formMensaje" rows="3" name="descripcion" placeholder="Mensaje"></textarea>
+                                <small>@if($errors->has('descripcion')){{ $errors->first('descripcion') }}@endif</small>
                             </div>
                         
                             <div class="col-12">
