@@ -1,3 +1,18 @@
+#colores{
+    color: #252525;
+    color: #3C69CD;
+    color: #00C5AA;
+    color: grey;
+}
+
+body{
+    color: #252525 !important;
+}
+
+.navbar{
+    min-height: 5rem;
+}
+
 .patyMenu{
     border: none !important;
     outline: none !important;

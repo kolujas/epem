@@ -16,10 +16,15 @@
 @section('main')
     <div class="container">
         <div class="row">
+            <div class="banner col-12">
+                <p>
+                    IMAGEN
+                </p>
+            </div>
             <div class="nuestros-servicios col-12">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <h2 class="text-center text-uppercase h3">Nuestros servicios</h2>
+                        <h2 class="text-center text-uppercase h1 mt-5 mb-0">Nuestros servicios</h2>
                     </div>
 
                     <div class="col-12">

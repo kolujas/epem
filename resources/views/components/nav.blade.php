@@ -1,5 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white  sticky-top">
-
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <a class="navbar-brand" href="#">
         <h1 class="h4">EPEM</h1>
     </a>
