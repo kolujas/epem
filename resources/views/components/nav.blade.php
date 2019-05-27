@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
 
     
-=======
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-    <a class="navbar-brand" href="#">
-        <h1 class="h4">EPEM</h1>
-    </a>
->>>>>>> 76e912913aa0073898635e3a96e54dd1bc397ed0
 
     <button class="navbar-toggler patyMenu mr-auto"
             type="button"
