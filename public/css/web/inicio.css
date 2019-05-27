@@ -7,7 +7,12 @@
     cursor: pointer;
 }
 
-.banner p{
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* .banner p{
     background-color: lightgray;
     color: grey;
     height: 500px;
@@ -17,6 +22,26 @@
     width: 100vw;
     margin-left: 50%;
 	transform: translateX(-50%);
+} */
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    filter: grayscale(100%) brightness(50%);
+}
+
+.banner h2{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    font-size: 1.8em;
+}
+
+.banner p{
+    display: none;
 }
 
 /* .contacto h2,
@@ -24,19 +49,19 @@
     color: #252525;
 } */
 
-.nuestros-servicios h3{
+.club h3{
     color: #3C69CD;
 }
 
-.lista-servicios span{
+.club span{
     color: #00C5AA;
 }
 
-.lista-servicios li{
+.club li{
     color: grey;
 }
 
-.solucion-familias p{
+.club p{
     word-break: break-all;
 }
 
@@ -111,6 +136,27 @@ footer .redesSociales i{
 
 
 @media(min-width: 768px){
+
+    .banner h2{
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        font-size: 2.5rem;
+    }
+    
+    .banner p{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+    }
+
+    .primer-card .card-body{
+        padding-bottom: 2.7rem !important;
+    }
+
     .enviarForm{
         width: 30%;
     }

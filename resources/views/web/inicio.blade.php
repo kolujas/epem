@@ -17,46 +17,84 @@
     <div class="container-fluid">
         <div class="row">
             <div class="banner col-md-12 px-0 mx-0 mb-5 mt-0">
-                <img class="img-fluid" src="img/banner.jpg" alt="">        
+                <img class="img-fluid" src="img/banner.jpg" alt=""> 
+                <h2 class="h1 text-center text-white">Centro para personas mayores</h2>
+                <p class="h4 text-white px-5 text-center">Desarrollamos un modelo integral centrado en personas mayores que desean interactuar con otros y participar en actividades recreativas y terapéuticas</p>       
             </div>
    
             <div class="nuestros-servicios col-12">
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <h2 class="text-center text-uppercase h3">Nuestros servicios</h2>
-                    </div>
-
-                    <div class="col-12">
                         <h3 class="text-center h5">Cómo podemos ayudarte</h3>
                     </div>
 
-                    <ul class="lista-servicios fa-ul mt-4 col-10">
-                        <li><span class="fa-li" ><i class="fas fa-check-square"></i></span>Proveemos una alimentación sana.</li>
-                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Estimulamos la autonomía en las actividades de la vida diaria.</li>
-                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Proporcionamos el apoyo para cada nivel de la necesidad, incluyendo incontinencia, movilidad y alimentación.</li>
-                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Ofrecemos un marco adecuado para el desarrollo de relaciones y actividades sociales gratificantes.</li>
-                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Realizamos programas especiales para personas con diagnóstico de Alzheimer u otras demencias.</li>
-                    </ul>
+                    <div class="row cartas">
+                        <div class="col-sm-6 my-2 primer-card">
+                            <div class="card">
+                            <div class="card-body row">
+                            <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                                <p class="card-text">Proveemos una alimentación sana.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 my-2">
+                            <div class="card">
+                            <div class="card-body row">
+                            <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                                <p class="card-text">Estimulamos la autonomía en las actividades de la vida diaria.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 my-2">
+                            <div class="card">
+                            <div class="card-body row">
+                                <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                                <p class="card-text">Proporcionamos el apoyo para cada nivel de la necesidad, incluyendo incontinencia, movilidad y alimentación.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 my-2">
+                            <div class="card">
+                            <div class="card-body row">
+                                <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                                <p class="card-text">Ofrecemos un marco adecuado para el desarrollo de relaciones y actividades sociales gratificantes.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 my-2">
+                            <div class="card">
+                            
+                            <div class="card-body row">
+                                <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-2"></i></span>
+                                <p class="card-text">Realizamos programas especiales para personas con diagnóstico de Alzheimer u otras demencias.</p>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
 
+                
                     <figure class="col-10">
-                        <img src="img/ancianos_piolas.jpg" class="img-fluid my-4" alt="Responsive image">
+                            <img src="img/ancianos_piolas.jpg" class="img-fluid my-4" alt="Responsive image">
                     </figure>
                 </div>
+                
             </div>
 
-            <div class="col-12 solucion-familias">
+            <div class="col-12 solucion-familias bg-dark text-white px-0 mx-0 py-4">
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <h2 class="text-center text-uppercase h4">Creemos en una solución para las familias</h2>
                     </div>
 
-                    <div class="col-10">    
-                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis expedita consectetur facilis tempore, similique voluptatibus quaerat culpa est voluptatum.</p>
+                    <div class="col-12 text-center ">    
+                        <p class="mt-4">Buscamos una solución para las familias. Creemos en una conciliación familiar - laboral de aquellas personas que se encuentran a cargo de mayores con algún retoque de cuidado o asistencia. Queremos aportar a las familias y cuidadores los conocimiento necesarios para la realización de las tareas de asistencia.</p>
                     </div>
                 </div>
+                <div class="col-12 text-center">
+                <button type="button" class="btn-lg btn-primary m-auto btnContact">Contactate</button>
+                </div>
             </div>
-
-            <button type="button" class="btn-lg btn-primary m-auto btnContact">Contactate</button>
             
             <div class="el-mejor col-12 mt-4">
                 <div class="row justify-content-center">
@@ -65,10 +103,10 @@
                     </figure>
 
                     <div class="col-12">
-                        <h2 class="text-center text-uppercase el-club">El club</h2>
+                        <h2 class="text-center text-uppercase el-equipo">El club</h2>
                     </div>
 
-                    <div class="div-lista-solucion m-auto col-8">
+                    <div class="club div-lista-solucion m-auto col-8">
                         <ul class="lista-solucion fa-ul mt-4">
                             <li><span class="fa-li" ><i class="fas fa-check-square"></i></span>Supervisón médica</li>
                             <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Área de nutrición</li>
@@ -95,6 +133,53 @@
                     </figure>
                 </div>
             </div>
+            <div class="row justify-content-around col-12">
+                    <div class="col-12">
+                        <h2 class="text-center text-uppercase h3">El equipo</h2>
+                    </div>
+                    <div class="card col-12 col-md-5 my-3">
+                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-5 my-3">
+                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-5 my-3">
+                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-5 my-3">
+                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-5 my-3">
+                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-5 my-3">
+                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
 
             <div class="contacto col-12 my-5 contacto">
                 <div class="row justify-content-center">
