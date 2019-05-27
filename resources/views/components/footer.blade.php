@@ -4,7 +4,7 @@
 
         <hr class="separacionFooter">
     </div>
-    <ul class="col-12 navbar-nav mt-1">
+    <ul class="col-12 col-md-8 navbar-nav mt-1 mr-auto">
         <li class="nav-item">
             <a class="nav-link row" href="#">
                 <i class="fas fa-map-marker col-1"></i>
@@ -26,8 +26,8 @@
     </ul>
 </nav>
 
-<nav class="nav row justify-content-start redesSociales">
-    <a class="nav-link col-2" href="#"><i class="fab fa-facebook-f"></i></a>
-    <a class="nav-link col-2" href="#"><i class="fab fa-twitter"></i></a>
-    <a class="nav-link col-2" href="#"><i class="fab fa-instagram"></i></a>
+<nav class="nav row justify-content-start redesSociales col-md-4 ml-auto px-0">
+    <a class="nav-link col-2" href="https://www.facebook.com.ar"><i class="fab fa-facebook-f"></i></a>
+    <a class="nav-link col-2" href="https://www.twitter.com.ar"><i class="fab fa-twitter"></i></a>
+    <a class="nav-link col-2" href="https://www.instagram.com.ar"><i class="fab fa-instagram"></i></a>
 </nav>

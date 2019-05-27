@@ -1,5 +1,10 @@
-.container{
+.container-fluid{
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+.patyMenu {
+    cursor: pointer;
 }
 .contacto h2,
 .nuestros-servicios h2{
@@ -89,4 +94,18 @@ footer .redesSociales i{
 
 .separacionFooter{
     border-color: #57C6AA;
+}
+
+
+@media(min-width: 768px){
+    .enviarForm{
+        width: 30%;
+    }
+
+    .redesSociales{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        font-size: 1.4rem;
+    }
 }

@@ -14,8 +14,12 @@
 @endsection
 
 @section('main')
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
+            <div class="banner col-md-12 px-0 mx-0 mb-5 mt-0">
+                <img class="img-fluid" src="img/banner.jpg" alt="">        
+            </div>
+   
             <div class="nuestros-servicios col-12">
                 <div class="row justify-content-center">
                     <div class="col-12">
@@ -52,7 +56,7 @@
                 </div>
             </div>
 
-            <button type="button" class="btn btn-primary m-auto btnContact">Contactate</button>
+            <button type="button" class="btn-lg btn-primary m-auto btnContact">Contactate</button>
             
             <div class="el-mejor col-12 mt-4">
                 <div class="row justify-content-center">
@@ -122,7 +126,7 @@
                         
                             <div class="col-12">
                                 <div class="row justify-content-center">
-                                    <button type="submit" class="btn btn-primary w-50 enviarForm">Enviar</button>    
+                                    <button type="submit" class="btn btn-primary enviarForm">Enviar</button>    
                                 </div>
                             </div>
                         </div>
