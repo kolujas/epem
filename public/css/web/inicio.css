@@ -168,3 +168,20 @@ footer .redesSociales i{
         font-size: 1.4rem;
     }
 }
+
+@media(min-width: 1024px){
+    .banner img{
+        object-fit: cover;
+        width: 100%;
+        height: 30rem;
+    }
+
+    .banner h2{
+        font-size: 4rem;
+    }
+
+    .banner p{
+        font-size: 1.8rem;
+        padding: 0 10rem !important;
+    }
+}

@@ -1,7 +1,4 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-
-    
-
     <button class="navbar-toggler patyMenu mr-auto"
             type="button"
             data-toggle="collapse"
