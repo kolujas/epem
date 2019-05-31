@@ -38,7 +38,7 @@
                                 <span class="col-12 text-center">
                                     <i class="far fa-angry fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Proveemos una alimentación sana.</p>
+                                <p class="card-text text-center ml-5">Proveemos una alimentación sana.</p>
                             </div>
                         </div>
                         <div class="card">
