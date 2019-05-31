@@ -184,4 +184,13 @@ footer .redesSociales i{
         font-size: 1.8rem;
         padding: 0 10rem !important;
     }
+
+    .formContent{
+        background: url("/img/contact-bg-temporal.png") no-repeat center center;
+        padding: 0;
+    }
+
+    .formContent form{
+        background-color: rgba(51, 153, 255, 0.5);
+    }
 }

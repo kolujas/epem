@@ -28,33 +28,68 @@
                         <h2 class="text-center text-uppercase h3">Nuestros servicios</h2>
                         <h3 class="text-center h5 m-0">Cómo podemos ayudarte</h3>
                     </div>
-                    
-                    <div class="card-columns cartas row col-lg-10 col-xl-8 justify-content-around">
-                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4">
-                            <div class="card-body row row">
+                <div class="card-deck cartas row col-lg-10 col-xl-8">
+                    <div class="card">
+                    <div class="card-body row">
+                            <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                            <p class="card-text">Proveemos una alimentación sana .</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-body row">
+                            <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                            <p class="card-text">Estimulamos la autonomía en las actividades de la vida diaria.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-body row">
+                            <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                            <p class="card-text">Proporcionamos el apoyo para cada nivel de la necesidad, incluyendo incontinencia, movilidad y alimentación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck cartas row col-lg-10 col-xl-8 my-5">
+                    <div class="card">
+                    <div class="card-body row">
+                            <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                            <p class="card-text">Ofrecemos un marco adecuado para el desarrollo de relaciones y actividades sociales gratificantes.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-body row">
+                            <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
+                            <p class="card-text">Realizamos programas especiales para personas con diagnóstico de Alzheimer u otras demencias.</p>
+                        </div>
+                    </div>
+                </div>
+                    <!-- <div class="card-group cartas row col-lg-10 col-xl-8 justify-content-around">
+                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mx-1 mb-4">
+                            <div class="card-body row">
                                 <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
                                 <p class="card-text">Proveemos una alimentación sana .</p>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4">
-                            <div class="card-body row row">
+                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4 mx-1">
+                            <div class="card-body row">
                                 <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
                                 <p class="card-text">Estimulamos la autonomía en las actividades de la vida diaria.</p>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4">
-                            <div class="card-body row row">
+                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4 mx-1">
+                            <div class="card-body row">
                                 <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
                                 <p class="card-text">Proporcionamos el apoyo para cada nivel de la necesidad, incluyendo incontinencia, movilidad y alimentación.</p>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4">
+                    </div>
+                    <div class="card-group cartas row col-lg-10 col-xl-8 justify-content-around">
+                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4 mx-1">
                             <div class="card-body row">
                                 <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
                                 <p class="card-text">Ofrecemos un marco adecuado para el desarrollo de relaciones y actividades sociales gratificantes.</p>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4">
+                        <div class="card col-12 col-md-6 col-lg-4 col-xl-4 bg-dark text-white mb-4 mx-1">
                             <div class="card-body row">
                                 <span class="col-12 text-center"><i class="text-primary fas fa-carrot fa-7x mb-3"></i></span>
                                 <p class="card-text">Realizamos programas especiales para personas con diagnóstico de Alzheimer u otras demencias.</p>
@@ -63,7 +98,7 @@
                     </div>
                 </div>
             </div>
-
+ -->
             <div class="col-12 solucion-familias bg-dark text-white m-0">
                 <div class="row justify-content-center py-4 py-lg-5">
                     <div class="col-12">
@@ -151,13 +186,13 @@
                     </div>
                 </div>
 
-            <div class="contacto col-12 py-4 contacto bg-dark text-white">
+            <div class="contacto col-12 py-4 contacto text-white formContent">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
                         <h2 class="text-center text-uppercase h3 m-0">Contacto</h2>
                     </div>
-                    
-                    <form class="col-12 col-lg-6 col-xl-4">
+
+                    <form class="col-12 col-lg-5 col-xl-4 ml-auto mr-5 py-4">
                         <div class="row justify-content-center">
                             <div class="form-group col-12">
                                 <label for="nombre">Nombre</label>
@@ -176,12 +211,13 @@
                                 <textarea class="form-control" id="formMensaje" rows="3" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="col-12 text-center">
-                                <button type="submit" class="btn-lg btn-primary m-auto enviarForm">Enviar</button> 
+                                <button type="submit" class="btn-lg btn-primary m-auto enviarForm bg-dark">Enviar</button> 
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
+
         </div>
     </div>
 @endsection
