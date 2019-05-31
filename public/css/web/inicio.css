@@ -164,6 +164,10 @@ footer .redesSociales i{
     border-color: #57C6AA;
 }
 
+.formContent h2{
+    color: black;
+}
+
 
 @media(min-width: 768px){
 
@@ -203,7 +207,7 @@ footer .redesSociales i{
     .banner img{
         object-fit: cover;
         width: 100%;
-        height: 30rem;
+        height: 40rem;
     }
 
     .banner h2{
@@ -222,6 +226,11 @@ footer .redesSociales i{
 
     .formContent form{
         background-color: rgba(51, 153, 255, 0.5);
+        margin-right: 5rem;
+    }
+
+    .formContent h2{
+        color: #fff;
     }
 
 }
