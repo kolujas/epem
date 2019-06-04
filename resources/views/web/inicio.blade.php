@@ -59,7 +59,7 @@
                         </div>
                     </div>
 
-                    <div class="card-deck cartas row col-lg-10 col-xl-8 mb-4 mb-md-4">
+                    <div class="card-deck cartas row col-lg-10 col-xl-8 mb-4 mt-md-4">
                         <div class="card">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
