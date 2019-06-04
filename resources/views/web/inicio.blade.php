@@ -18,6 +18,9 @@
         <div class="row justify-content-lg-center">
             <div class="banner col-12 p-0 m-0">
                 <img class="img-fluid" src="img/banner.jpg" alt="">
+                <div class="col-12 text-center">
+                    <button type="button" class="btn-lg btn-primary m-auto btnContact">Contactate</button>
+                </div>
                 <h2 class="h1 text-center text-white">Centro para personas mayores</h2>
                 <p class="h4 text-white px-5 text-center">Desarrollamos un modelo integral centrado en personas mayores que desean interactuar con otros y participar en actividades recreativas y terapéuticas</p>
             </div>
@@ -35,7 +38,7 @@
                                 <span class="col-12 text-center">
                                     <i class="far fa-angry fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Proveemos una alimentación sana.</p>
+                                <p class="card-text text-center ml-5">Proveemos una alimentación sana.</p>
                             </div>
                         </div>
                         <div class="card">
@@ -71,16 +74,13 @@
             <div class="col-12 solucion-familias bg-dark text-white m-0">
                 <div class="row justify-content-center py-4 py-lg-5">
                     <div class="col-12">
-                        <h2 class="text-center text-uppercase h4 m-0">Creemos en una solución para las familias</h2>
+                        <h2 class="text-center text-uppercase h2 m-0">Creemos en una solución para las familias</h2>
                     </div>
 
                     <div class="col-12 col-lg-10 col-xl-8 text-justify my-4">    
                         <p class="m-0">Buscamos una solución para las familias. Creemos en una conciliación familiar - laboral de aquellas personas que se encuentran a cargo de mayores con algún retoque de cuidado o asistencia. Queremos aportar a las familias y cuidadores los conocimiento necesarios para la realización de las tareas de asistencia.</p>
                     </div>
-
-                    <div class="col-12 text-center">
-                        <button type="button" class="btn-lg btn-primary m-auto btnContact">Contactate</button>
-                    </div>
+                    
                 </div>
             </div>
             
@@ -163,7 +163,7 @@
                         <h2 class="text-center text-uppercase h3 m-0">Contacto</h2>
                     </div>
 
-                    <form class="col-12 col-lg-5 col-xl-4 ml-auto mr-5 py-4">
+                    <form class="col-12 col-lg-5 col-xl-4 ml-auto py-4">
                         <div class="row justify-content-center">
                             <div class="form-group col-12">
                                 <label for="nombre">Nombre</label>
