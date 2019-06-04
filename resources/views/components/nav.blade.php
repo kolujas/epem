@@ -19,7 +19,13 @@
                 <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#quienes-somos">Quienes Somos</a>
+                <a class="nav-link" href="/#nuestros-servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#el-club">El Club</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#el-equipo">El Equipo</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/#contacto">Contacto</a>

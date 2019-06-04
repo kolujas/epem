@@ -25,7 +25,7 @@
                 <p class="h4 text-white px-5 text-center">Desarrollamos un modelo integral centrado en personas mayores que desean interactuar con otros y participar en actividades recreativas y terapéuticas</p>
             </div>
    
-            <div id="quienes-somos" class="nuestros-servicios col-12">
+            <div id="nuestros-servicios" class="nuestros-servicios col-12">
                 <div class="row justify-content-center">
                     <div class="col-12 my-4">
                         <h2 class="text-center text-uppercase h3">Nuestros servicios</h2>
@@ -58,7 +58,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-deck cartas row col-lg-10 col-xl-8 my-5">
+
+                    <div class="card-deck cartas row col-lg-10 col-xl-8 mb-4 mb-md-4">
                         <div class="card">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
@@ -92,7 +93,7 @@
                 </div>
             </div>
             
-            <div class="el-club col-12 col-xl-8 py-4">
+            <div id="el-club" class="el-club col-12 col-xl-8 py-4">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
                         <h2 class="text-center text-uppercase m-0">El club</h2>
@@ -118,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="el-equipo row justify-content-around col-12">
+            <div id="el-equipo" class="el-equipo row justify-content-around col-12">
                 <div class="col-12 my-4">
                     <h2 class="text-center text-uppercase h3 m-0">El equipo</h2>
                 </div>
