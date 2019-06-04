@@ -16,13 +16,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Quienes somos?</a>
+                <a class="nav-link" href="/#quienes-somos">Quienes Somos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Me gusta la pizza</a>
+                <a class="nav-link" href="/#contacto">Contacto</a>
             </li>
         </ul>
     </div>

@@ -51,10 +51,6 @@
 	transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
 }
 
-.nuestros-servicios .card:hover{
-    background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%);
-}
-
 .nuestros-servicios .card-body{
     background: #f3f9fb;
 }
@@ -89,9 +85,7 @@
 }
 
 .btnContact:hover{
-   background-color:#3C69CD !important;  
-   border-color: none;
-   outline: none !important;
+   background-color:#3C69CD !important;
 }
 
 /* .lista-solucion li, .lista-solucion span{
@@ -112,6 +106,9 @@
 
 .el-equipo .card{
     border: none;
+    padding: 5px;
+    background: #f3f9fb;
+	transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
 }
 
 .el-equipo .card-body{
@@ -226,6 +223,14 @@ footer .redesSociales i{
     .banner p{
         font-size: 1.8rem;
         padding: 0 10rem !important;
+    }
+
+    .nuestros-servicios .card:hover{
+        background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%);
+    }
+    
+    .el-equipo .card:hover{
+        background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%);
     }
 
     .formContent{
