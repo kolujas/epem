@@ -43,3 +43,12 @@
             Route::post('/noticia/crear', 'NoticiaController@doCrear')->name('noticia.doCrear');
         });
     });
+
+
+// Ingresar
+
+Route::get('/panel', 'WebController@ingresar')->name('web.ingresar');
+
+
+Route::get('/evento/crear', 'WebController@crear')->name('eventos.crear');
+Route::get('/eventos', 'WebController@listado')->name('eventos.listado');

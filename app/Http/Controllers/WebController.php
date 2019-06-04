@@ -14,4 +14,18 @@
         public function panel(){
             return view('web.panel', ['usuario' => Auth::user()]);
         }
+
+        public function ingresar(){
+            return view('web.ingresar');
+        }
+    
+        public function crear(){
+            return view('eventos.crear');
+        }
+    
+        public function listado(){
+            return view('eventos.listado');
+        }
     }
+
+   

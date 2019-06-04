@@ -18,11 +18,29 @@ body{
     outline: none !important;
 }
 
-footer{
-    background: #666;
-    color: #111;
+/* footer */
+
+footer ul i{
+    color: #2B88DD;
 }
 
-footer a{
-    color: #111 !important;
+footer{
+    background-color: #242424;
 }
+
+footer .redesSociales i{
+    color: #7C7C7C;
+}
+
+.separacionFooter{
+    border-color: #57C6AA;
+}
+
+.formContent h2{
+    color: black;
+}
+
+
+
+
+
