@@ -25,6 +25,8 @@
                 <p class="h4 text-white px-5 text-center">Desarrollamos un modelo integral centrado en personas mayores que desean interactuar con otros y participar en actividades recreativas y terapéuticas</p>
             </div>
    
+            
+   
             <div id="nuestros-servicios" class="nuestros-servicios col-12">
                 <div class="row justify-content-center">
                     <div class="col-12 my-4">
@@ -32,8 +34,8 @@
                         <h3 class="text-center h5 m-0">Cómo podemos ayudarte</h3>
                     </div>
 
-                    <div class="card-deck cartas row col-lg-10 col-xl-8">
-                        <div class="card">
+                    <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
+                        <div class="card col-12 col-md-4 mr-md-4 col-lg-3 mr-lg-4 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                     <i class="text-primary fas fa-carrot fa-7x mb-3"></i>
@@ -41,7 +43,7 @@
                                 <p class="card-text text-center">Proveemos una alimentación sana.</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card col-12 col-md-4 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                     <i class="text-primary fas fa-carrot fa-7x mb-3"></i>
@@ -49,7 +51,7 @@
                                 <p class="card-text text-center">Estimulamos la autonomía en las actividades de la vida diaria.</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card col-12 col-md-4 mr-md-4 col-lg-3 ml-lg-4 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                     <i class="text-primary fas fa-carrot fa-7x mb-3"></i>
@@ -57,10 +59,7 @@
                                 <p class="card-text text-center">Proporcionamos el apoyo para cada nivel de la necesidad, incluyendo incontinencia, movilidad y alimentación.</p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="card-deck cartas row col-lg-10 col-xl-8 mb-4 mt-md-4">
-                        <div class="card">
+                        <div class="card col-12 col-md-4 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                     <i class="text-primary fas fa-carrot fa-7x mb-3"></i>
@@ -68,7 +67,7 @@
                                 <p class="card-text text-center">Ofrecemos un marco adecuado para el desarrollo de relaciones y actividades sociales gratificantes.</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card col-12 col-md-4 col-lg-3 ml-lg-4 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                     <i class="text-primary fas fa-carrot fa-7x mb-3"></i>

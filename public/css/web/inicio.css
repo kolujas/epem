@@ -100,7 +100,7 @@
 }
 
 .el-equipo .card-body{
-    background: #00A0D7;
+    background: rgb(147, 204, 250);
     color: white;
 }
 
@@ -120,6 +120,7 @@
     background-color: #3C69CD;
     color: #fff;
     border: none;
+    width: 8rem;
 }
 
 .enviarForm:hover{
@@ -179,7 +180,7 @@ footer .redesSociales i{
     }
 
     .enviarForm{
-        width: 30%;
+        width: 10rem;
     }
 
     .redesSociales{
@@ -218,7 +219,7 @@ footer .redesSociales i{
     }
 
     .formContent{
-        background: url("/img/contact-bg-temporal.png") no-repeat center center;
+        background: url("/img/contact-page.jpg") no-repeat center center;
         padding: 0;
     }
 
