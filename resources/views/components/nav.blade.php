@@ -16,16 +16,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Inicio<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/#nuestros-servicios">Servicios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#el-club">El Club</a>
+                <a class="nav-link" href="/#el-club">El club</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#el-equipo">El Equipo</a>
+                <a class="nav-link" href="/#el-equipo">El equipo</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/#contacto">Contacto</a>

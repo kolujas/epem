@@ -99,21 +99,21 @@
                         <h2 class="text-center text-uppercase m-0">El club</h2>
                     </div>
 
-                    <figure class="col-12 col-lg-6 col-xl-5 mb-md-4">
+                    <figure class="col-12 col-lg-6 col-xl-7 mb-md-4 py-1">
                         <img src="img/ancianos_piolas.jpg" class="img-fluid" alt="Responsive image">
                     </figure>
 
-                    <div class="club div-lista-solucion col-10 col-md-6 col-lg-4 col-xl-3">
+                    <div class="club div-lista-solucion col-10 col-md-6 col-lg-4 col-xl-4">
                         <ul class="lista-solucion fa-ul mb-0">
-                            <li><span class="fa-li" ><i class="fas fa-check-square"></i></span>Supervisón médica</li>
-                            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Área de nutrición</li>
-                            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Asistencia geriátrica</li>
-                            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Kinesiología</li>
-                            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Psicología</li>
-                            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Trabajo social</li>
-                            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Prof eduación física</li>
-                            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Talleristas</li>
-                            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Personal administrativo</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Supervisón médica</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Área de nutrición</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Asistencia geriátrica</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Kinesiología</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Psicología</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Trabajo social</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Prof eduación física</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Talleristas</li>
+                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check-square"></i></span>Personal administrativo</li>
                         </ul>
                     </div>
                 </div>
