@@ -20,16 +20,13 @@
                 <div class="parallax"></div>
                 <div class="banner-info">
                     <h2 class="h1 text-center text-white">Centro para personas mayores</h2>
-                    <p class="h4 text-white px-5 text-center">Desarrollamos un modelo integral centrado en personas mayores que desean interactuar con otros y participar en actividades recreativas y terapéuticas</p>
+                    <p class="h4 text-white px-5 text-center">Desarrollamos un modelo integral, centrado en personas mayores que deseen interactuar con otros y participar en actividades recreativas y terapéuticas, que promuevan su autonomía</p>
                 </div>
                 <!-- <img class="img-fluid" src="img/banner.jpg" alt=""> -->
                 <div class="banner-contact col-12 text-center">
                     <button type="button" class="btn-lg btn-primary m-auto btnContact">Contactate</button>
                 </div>
-               
             </div>
-   
-            
    
             <div id="nuestros-servicios" class="nuestros-servicios col-12">
                 <div class="row justify-content-center">
@@ -39,7 +36,7 @@
                     </div>
 
                     <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
-                        <div class="card col-12 col-md-4 mr-md-4 col-lg-3 mr-lg-4 mb-4">
+                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                 <i class="fas fa-utensils fa-7x mb-3"></i>
@@ -47,7 +44,8 @@
                                 <p class="card-text text-center">Proveemos una alimentación sana.</p>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-4 col-lg-3 mb-4">
+
+                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                     <i class="fas fa-diagnoses fa-7x mb-3"></i>
@@ -55,15 +53,17 @@
                                 <p class="card-text text-center">Estimulamos la autonomía en las actividades de la vida diaria.</p>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-4 mr-md-4 col-lg-3 ml-lg-4 mb-4">
+
+                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                 <i class="fab fa-accessible-icon fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Proporcionamos el apoyo para cada nivel de la necesidad, incluyendo incontinencia, movilidad y alimentación.</p>
+                                <p class="card-text text-center">Proporcionamos el apoyo para cada nivel de necesidad.</p>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-4 col-lg-3 mb-4">
+
+                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                 <i class="fas fa-user-friends fa-7x mb-3"></i>
@@ -71,12 +71,22 @@
                                 <p class="card-text text-center">Ofrecemos un marco adecuado para el desarrollo de relaciones y actividades sociales gratificantes.</p>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-4 col-lg-3 ml-lg-4 mb-4">
+
+                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                 <i class="fas fa-brain fa-7x mb-3"></i>
                                 </span>
                                 <p class="card-text text-center">Realizamos programas especiales para personas con diagnóstico de Alzheimer u otras demencias.</p>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                            <div class="card-body row">
+                                <span class="col-12 text-center">
+                                <i class="fas fa-hands-helping fa-7x mb-3"></i>
+                                </span>
+                                <p class="card-text text-center">Brindamos orientación a familiares y acompañantes de personas mayores.</p>
                             </div>
                         </div>
                     </div>
@@ -90,9 +100,8 @@
                     </div>
 
                     <div class="col-12 col-lg-10 col-xl-8 text-justify my-4">    
-                        <p class="m-0">Buscamos una solución para las familias. Creemos en una conciliación familiar - laboral de aquellas personas que se encuentran a cargo de mayores con algún retoque de cuidado o asistencia. Queremos aportar a las familias y cuidadores los conocimiento necesarios para la realización de las tareas de asistencia.</p>
+                        <p class="m-0">Creemos posible la conciliación familiar - laboral de aquellas personas que se encuentran a cargo de mayores con algún requerimiento de asistencia. Brindamos a las familias y cuidadores un marco de apoyo para evitar la sobrecarga, permitiéndoles continuar con su actividad laboral y rutina diaria.</p>
                     </div>
-                    
                 </div>
             </div>
             
@@ -122,49 +131,58 @@
                 </div>
             </div>
 
-            <div id="el-equipo" class="el-equipo row justify-content-around col-12">
+            <div id="el-equipo" class="el-equipo row col-12 justify-content-center">
                 <div class="col-12 my-4">
                     <h2 class="text-center h3 m-0">El equipo</h2>
                 </div>
 
-                <div class="card-deck cartas row col-lg-10 col-xl-8">
-                    <div class="card">
+                <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
+                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Supervisión Médica</h3>
                         </div>
                     </div>
-                    <div class="card">
+
+                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Área de Nutrición</h3>
                         </div>
                     </div>
-                    <div class="card">
+
+                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Asistencia Geriátrica</h3>
                         </div>
                     </div>
-                </div>
 
-                <div class="card-deck cartas row col-lg-10 col-xl-8 mb-4 mt-md-4">
-                    <div class="card">
+                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Trabajo Social</h3>
                         </div>
                     </div>
-                    <div class="card">
+                    
+                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Prof. Educación Fisica</h3>
                         </div>
                     </div>
-                    <div class="card">
+                    
+                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Talleristas</h3>
+                        </div>
+                    </div>
+
+                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title h4 m-0 text-right">Terapia ocupacional</h3>
                         </div>
                     </div>
                 </div>
@@ -175,9 +193,10 @@
                     
 
                     <form class="col-12 col-lg-5 col-xl-4 m-auto py-4">
-                    <div class="col-12 mb-4">
-                        <h2 class="text-center h3 m-0">Contacto</h2>
-                    </div>
+                        <div class="col-12 mb-4">
+                            <h2 class="text-center h3 m-0">Contacto</h2>
+                        </div>
+
                         <div class="row justify-content-center">
                             <div class="form-group col-11">
                                 <label for="nombre">Nombre</label>
