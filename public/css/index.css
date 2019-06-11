@@ -13,6 +13,18 @@ body{
     min-height: 5rem;
 }
 
+.navbar .navbar-brand{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background: url("/img/logo.png") no-repeat center center;
+    background-size: contain;
+}
+
+.navbar .navbar-brand h1{
+    font-size: 0 !important;
+}
+
 .patyMenu{
     border: none !important;
     outline: none !important;
@@ -39,8 +51,3 @@ footer .redesSociales i{
 .formContent h2{
     color: black;
 }
-
-
-
-
-

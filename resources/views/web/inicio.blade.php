@@ -96,7 +96,7 @@
             <div class="col-12 solucion-familias bg-dark text-white m-0">
                 <div class="row justify-content-center py-4 py-lg-5">
                     <div class="col-12">
-                        <h2 class="text-center h2 m-0">Creemos en una solución para las familias</h2>
+                        <h2 class="text-center h2 m-0">Una solución para las familias</h2>
                     </div>
 
                     <div class="col-12 col-lg-10 col-xl-8 text-justify my-4">    

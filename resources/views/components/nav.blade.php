@@ -10,7 +10,7 @@
     </button>
 
     <a class="navbar-brand" href="#">
-        <h1 class="h4">EPEM</h1>
+        <h1>EPEM</h1>
     </a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
