@@ -5,7 +5,7 @@
 @endsection
 
 @section('titulo')
-    Inicio
+    EPEM
 @endsection
 
 @section('nav')
@@ -22,9 +22,8 @@
                     <h2 class="h1 text-center text-white">Centro para personas mayores</h2>
                     <p class="h4 text-white px-5 text-center">Desarrollamos un modelo integral, centrado en personas mayores que deseen interactuar con otros y participar en actividades recreativas y terapéuticas, que promuevan su autonomía</p>
                 </div>
-                <!-- <img class="img-fluid" src="img/banner.jpg" alt=""> -->
                 <div class="banner-contact col-12 text-center">
-                    <button type="button" class="btn-lg btn-primary m-auto btnContact">Contactate</button>
+                    <button type="button" class="btn-lg btn-outline-primary m-auto text-white btnContact">Contactate</button>
                 </div>
             </div>
    
@@ -190,12 +189,10 @@
 
             <div id="contacto" class="contacto col-12 py-4 contacto text-white formContent">
                 <div class="row justify-content-center">
-                    
-
+                    <div class="col-12 mb-4">
+                        <h2 class="text-center h2 m-0 text-dark">Contacto</h2>
+                    </div>                
                     <form class="col-12 col-lg-5 col-xl-4 m-auto py-4">
-                        <div class="col-12 mb-4">
-                            <h2 class="text-center h3 m-0">Contacto</h2>
-                        </div>
 
                         <div class="row justify-content-center">
                             <div class="form-group col-11">
@@ -215,7 +212,7 @@
                                 <textarea class="form-control" id="formMensaje" rows="3" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="col-12 text-center">
-                                <button type="submit" class="btn-lg btn-primary m-auto enviarForm bg-dark">Enviar</button> 
+                                <button type="submit" class="btn-lg m-auto text-white enviarForm">Enviar</button> 
                             </div>
                         </div>
                     </form>
