@@ -15,12 +15,12 @@
 .nuestros-servicios .card{
     border: none;
     padding: 5px;
-    background: #f3f9fb;
+    /* background-color:#e9ecef; */
 	transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
 }
 
 .nuestros-servicios .card-body{
-    background: #f3f9fb;
+    /* background-color:#e9ecef; */
 }
 
 .nuestros-servicios .card .fa-utensils, .fa-diagnoses, .fa-accessible-icon, .fa-user-friends, .fa-brain, .fa-hands-helping{
@@ -46,13 +46,14 @@
 }
 
 .btnContact{
-    background-color: #3C69CD;
+    background-color: rgba(32, 101, 171);
     border: none;
     outline: none !important;
 }
 
 .btnContact:hover{
-   background-color:#3C69CD !important;
+   transition: 400ms;
+   background-color:rgb(99, 132, 204) !important;
 }
 
 .lista-solucion li i{
@@ -73,7 +74,7 @@
 }
 
 .el-equipo .card-body{
-    background:rgba(43, 74, 144, 0.6);
+    background:rgba(32, 101, 171, 0.65);
     color: white;border-bottom-left-radius: calc(.25rem - 1px);
     border-bottom-right-radius: calc(.25rem - 1px);
 }
@@ -91,14 +92,13 @@
 }
 
 .enviarForm{
-    background-color: #3C69CD;
-    color: #fff;
+    background-color: rgba(32, 101, 171, 0.65);
     border: none;
     width: 8rem;
 }
 
 .enviarForm:hover{
-    background-color: #00ffbf;
+    background-color: rgba(32, 101, 171);
 }
 
 input::placeholder{
@@ -132,31 +132,49 @@ footer .redesSociales i{
 }
 
 .parallax {
-    background-image: url("/img/banner.jpg");
-    background-repeat: no-repeat;
+    background: url("/img/banner.jpg") no-repeat center -20rem;
     min-height: 15rem;
     filter: brightness(50%);
 }
 
 .banner-info{
-    position: absolute;
     top: 3rem;
     right: 0;
     left: 0;
+    background-color:#e9ecef;
 }
 
 .banner-info h2{
     font-size: 1.8rem;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+
 }
 
 .banner-info p{
-    display: none;
+    display: block;
+    position: relative;
+    color: #242424 !important;
+    padding: 2rem 0;
+    text-align: left !important;
+}
+
+.banner-info p::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 3rem;
+    right: 3rem;
+    bottom: 0;
+    border-bottom: 1px solid #242424;
 }
 
 .banner-contact{
-    position: relative;
-    bottom: 8rem;
-    margin-top: 1rem;
+    position: absolute;
+    top: 8rem;
+    margin-top: 2rem;
 }
 
 .banner-contact .btnContact{
@@ -165,32 +183,48 @@ footer .redesSociales i{
 }
 
 @media(min-width: 768px){
+
+    .parallax {
+        min-height: 25rem;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }    
+
     .banner-info{
         position: absolute;
-        top: 4rem;
-        right: 0;
+        background: transparent;
+        top: 0;
         left: 0;
+        right: 0;
+        bottom: 0;
     }
     
     .banner-info h2{
-        font-size: 1.8rem;
+        top: 3rem;
     }
     
     .banner-info p{
-        display: none;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        right: 0;
+        text-align: center !important;
+        color: white !important;
+    }
+
+    .banner-info p::after{
+        border-bottom: none;
     }
     
     .banner-contact{
-        position: relative;
-        bottom: 8rem;
-        margin-top: 1rem;
+        top: 6rem;
+        margin-top: 2rem;
     }
     
     .banner-contact .btnContact{
-        display: block;
         width: 8rem;
-        bottom: 2rem;
-        margin-top: 2rem !important;
+        top: 8rem;
     }
 
     .nuestros-servicios .card:first-of-type,
@@ -243,34 +277,34 @@ footer .redesSociales i{
         background-position: center;
         background-size: cover;
     }
-
-    .banner-info{
-        position: absolute;
-        top: 10rem;
-    }
-
     .banner-info h2{
         font-size: 4rem;
+        top: 7rem;
     }
 
     .banner-info p{
-        display: block;
+        top: 12rem;
         font-size: 1.8rem;
-        padding: 0 10rem !important;
+    }
+
+    .banner-contact{
+        top: 13rem;
     }
 
     .banner-contact .btnContact{
-        position: relative;
-        bottom: 9rem;
         width: 12rem;
         height: 3.5rem;
         font-size: 1.7rem;
-        text-align: center;
-        margin-top: 3rem !important;
     }
 
     .nuestros-servicios .card:hover{
-        background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%);
+        /* background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%); */
+        background-color:#e9ecef;
+    }
+    
+    .nuestros-servicios .card-body:hover{
+        /* background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%); */
+        background-color:#e9ecef;
     }
 
     .nuestros-servicios .card:first-of-type,
@@ -298,7 +332,7 @@ footer .redesSociales i{
     }
 
     .formContent::after{
-        background: url("/img/form-contact.jpg") no-repeat center center;
+        background: #fff;
         position: absolute;
         top: 0;
         left: 0;
@@ -311,7 +345,7 @@ footer .redesSociales i{
     
 
     .formContent form{
-        background-color: rgba(51, 153, 255, 0.2);
+        background-color: rgba(32, 101, 171, 0.65);
         margin-right: 5rem;
     }
 
@@ -325,30 +359,29 @@ footer .redesSociales i{
         bottom: 8rem;
     }
 
+    .enviarForm{
+        background-color: transparent;
+        border: 1px solid #fff;
+        width: 8rem;
+        outline: none !important;
+    }
+    
+    .enviarForm:hover{
+        transition: 800ms;
+        color: #fff;
+        background-color:#2980d6;
+        border: 1px solid rgba(32, 101, 171, 0);
+    }
+
 }
 
 @media(min-width: 1200px){
-    .banner-info{
-        position: absolute;
-        top: 10rem;
-    }
-
-    .banner-info h2{
-        font-size: 4rem;
-    }
-
+    
     .banner-info p{
-        display: block;
+        top: 12rem;
+        left: 20rem;
+        right: 20rem;
         font-size: 1.8rem;
-        padding: 0 10rem !important;
     }
-
-    .banner-contact .btnContact{
-        position: relative;
-        bottom: 12rem;
-        width: 12rem;
-        height: 3.5rem;
-        font-size: 1.7rem;
-        text-align: center;
-    }
+    
 }
