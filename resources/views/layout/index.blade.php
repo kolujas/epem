@@ -34,13 +34,14 @@
             @yield('main')
         </main>
 
-        <script type="text/javascript" src="{{ asset('js/bootstrap/jquery-3.4.1.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
-
         <footer class="row justify-content-center">
             <section class="col-12 col-lg-10 col-xl-8">
                 @yield('footer')
             </section>
         </footer>
+
+        <script type="text/javascript" src="{{ asset('js/bootstrap/jquery-3.4.1.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/index.js') }}"></script>
     </body>
 </html>
