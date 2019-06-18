@@ -218,7 +218,6 @@
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 @endsection
@@ -230,5 +229,5 @@
 
 
 @section('js')
-    
+    <script type="text/javascript" src="{{ asset('js/web/inicio.js') }}"></script>
 @endsection

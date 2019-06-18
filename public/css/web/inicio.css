@@ -133,7 +133,8 @@ footer .redesSociales i{
 }
 
 .parallax {
-    background: url("/img/banner.jpg") no-repeat center -20rem;
+    /* background: url("/img/banner.jpg") no-repeat center -20rem; */
+    background: url("/img/banner-compressor.jpg") no-repeat center -20rem;
     min-height: 15rem;
     filter: brightness(50%);
 }
