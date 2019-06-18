@@ -35,7 +35,7 @@
             $objDemo->descripcion = $inputData['descripcion'];
 
             
-            Mail::to('info@mutualcoop.org.ar')->send(new Contactar($objDemo));
+            Mail::to('test@correo.com')->send(new Contactar($objDemo));
 
             return redirect()->route('correo.gracias');
         }

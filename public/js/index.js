@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function(){
     window.addEventListener('scroll', function (event){
         let scroll = this.scrollY;
         this.console.log(scroll);
-        if(scroll <= 100){
+        if(scroll <= 80){
             header.classList.add('top-top-menu');
             header.classList.remove('top-menu');
             header.classList.remove('bottom-menu');

@@ -192,24 +192,24 @@
                     <div class="col-12 mb-4">
                         <h2 class="text-center h2 m-0 text-dark">Contacto</h2>
                     </div>                
-                    <form class="col-12 col-lg-5 col-xl-4 m-auto py-4">
-
+                    <form class="col-12 col-lg-5 col-xl-4 m-auto py-4" action="/contactar" method="post">
+                        @csrf
                         <div class="row justify-content-center">
                             <div class="form-group col-11">
                                 <label for="nombre">Nombre</label>
-                                <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+                                <input name="nombre" class="form-control" id="nombre" type="text" placeholder="Nombre">
                             </div>
                             <div class="form-group col-11">
                                 <label for="telefono">Teléfono</label>
-                                <input class="form-control" id="telefono" type="number" placeholder="Telefono">
+                                <input name="telefono" class="form-control" id="telefono" type="number" placeholder="Telefono">
                             </div>
                             <div class="form-group col-11">
                                 <label for="formEmail">Email</label>
-                                <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Email">
+                                <input name="correo" type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Email">
                             </div>
                             <div class="form-group col-11">
                                 <label for="formMensaje">Mensaje</label>
-                                <textarea class="form-control" id="formMensaje" rows="3" placeholder="Mensaje"></textarea>
+                                <textarea name="descripcion" class="form-control" id="formMensaje" rows="3" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="col-12 text-center">
                                 <button type="submit" class="btn-lg m-auto text-white enviarForm">Enviar</button> 

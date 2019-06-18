@@ -46,14 +46,14 @@
 }
 
 .btnContact{
-    background-color: rgba(32, 101, 171);
+    background:rgba(32, 101, 171);
     border: none;
     outline: none !important;
 }
 
 .btnContact:hover{
-   transition: 400ms;
-   background-color:rgb(99, 132, 204) !important;
+    transition: 800ms;
+    background-color:#2980d6;
 }
 
 .lista-solucion li i{
@@ -75,7 +75,8 @@
 
 .el-equipo .card-body{
     background:rgba(32, 101, 171, 0.65);
-    color: white;border-bottom-left-radius: calc(.25rem - 1px);
+    color: white;
+    border-bottom-left-radius: calc(.25rem - 1px);
     border-bottom-right-radius: calc(.25rem - 1px);
 }
 
@@ -183,7 +184,6 @@ footer .redesSociales i{
 }
 
 @media(min-width: 768px){
-
     .parallax {
         min-height: 25rem;
         background-attachment: fixed;
@@ -325,6 +325,16 @@ footer .redesSociales i{
     .el-equipo .card:last-of-type{
         margin-right: 0 !important;
     }
+    
+    .el-equipo .card:hover div{
+        transition: 800ms;
+        background-color:#2980d6;
+    }
+
+    .lista-solucion li:hover{
+        transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
+        font-weight: bold;
+    }
 
     .formContent{
         position: relative;
@@ -342,11 +352,11 @@ footer .redesSociales i{
         opacity: 0.8;
         z-index: -1;
     }
-    
 
     .formContent form{
         background-color: rgba(32, 101, 171, 0.65);
         margin-right: 5rem;
+        border-radius: calc(.25rem - 1px);
     }
 
     .formContent h2{
@@ -379,8 +389,8 @@ footer .redesSociales i{
     
     .banner-info p{
         top: 12rem;
-        left: 20rem;
-        right: 20rem;
+        left: 18rem;
+        right: 18rem;
         font-size: 1.8rem;
     }
     
