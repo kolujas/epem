@@ -8,7 +8,7 @@
         <li class="nav-item">
             <a class="nav-link row" href="#">
                 <i class="fas fa-map-marker col-1"></i>
-                <span class="col-8 text-white">Fulton Street San Diego, CA 94117-1080</span>
+                <span class="col-8 text-white">Av. Belgrano 2169, Avellaneda</span>
             </a>
         </li>
         <li class="nav-item">
