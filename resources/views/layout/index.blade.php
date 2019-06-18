@@ -42,6 +42,8 @@
 
         <script type="text/javascript" src="{{ asset('js/bootstrap/jquery-3.4.1.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('https://unpkg.com/scrollreveal') }}"></script>
         <script type="text/javascript" src="{{ asset('js/index.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/scrollReveal.js') }}"></script>
     </body>
 </html>

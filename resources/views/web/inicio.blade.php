@@ -227,3 +227,8 @@
     @component('components.footer')
     @endcomponent
 @endsection
+
+
+@section('js')
+    
+@endsection
