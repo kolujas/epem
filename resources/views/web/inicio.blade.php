@@ -104,28 +104,32 @@
                 </div>
             </div>
             
-            <div id="el-club" class="el-club col-12 col-xl-8 py-4">
+            <div id="el-club" class="el-club col-12 py-4">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
                         <h2 class="text-center m-0">El club</h2>
                     </div>
 
-                    <figure class="col-12 col-lg-6 col-xl-7 mb-md-4 py-1">
+                    <figure class="col-12 col-md-8 col-lg-6 col-xl-5 mb-md-4 py-1 py-lg-2 py-xl-1">
                         <img src="img/ancianos_piolas.jpg" class="img-fluid" alt="Responsive image">
                     </figure>
 
-                    <div class="club div-lista-solucion col-10 col-md-6 col-lg-4 col-xl-4">
+                    <div class="club div-lista-solucion col-10 col-md-4 col-lg-3 col-xl-3">
                         <ul class="lista-solucion fa-ul mb-0">
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Supervisón médica</li>
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Área de nutrición</li>
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Asistencia geriátrica</li>
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Kinesiología</li>
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Psicología</li>
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Trabajo social</li>
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Prof eduación física</li>
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Talleristas</li>
-                            <li class="mb-2 pb-1"><span class="fa-li"><i class="fas fa-check"></i></span>Personal administrativo</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Supervisón médica</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Área de nutrición</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Asistencia geriátrica</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Kinesiología</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Psicología</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Trabajo social</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Prof eduación física</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Talleristas</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Personal administrativo</li>
                         </ul>
+                    </div>
+                
+                    <div class="col-12 text-center mt-4">
+                        <button type="button" class="btn-lg btn-outline-primary m-auto text-white btnContact">Contactate</button>
                     </div>
                 </div>
             </div>
@@ -137,21 +141,21 @@
 
                 <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/supervision_medica.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Supervisión Médica</h3>
                         </div>
                     </div>
 
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/nutricion.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Área de Nutrición</h3>
                         </div>
                     </div>
 
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/asistencia_geriatrica.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Asistencia Geriátrica</h3>
                         </div>
@@ -165,21 +169,21 @@
                     </div>
                     
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/educacion_fisica.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Prof. Educación Fisica</h3>
                         </div>
                     </div>
                     
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/talleristas.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Talleristas</h3>
                         </div>
                     </div>
 
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/terapia_ocupacional.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title h4 m-0 text-right">Terapia ocupacional</h3>
                         </div>
@@ -191,8 +195,8 @@
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
                         <h2 class="text-center h2 m-0 text-dark">Contacto</h2>
-                    </div>                
-                    <form class="col-12 col-lg-5 col-xl-4 m-auto py-4" action="/contactar" method="post">
+                    </div>       
+                    <form class="col-12 col-lg-5 col-xl-4 m-auto py-lg-4" action="/contactar" method="post">
                         @csrf
                         <div class="row justify-content-center">
                             <div class="form-group col-11">
@@ -216,6 +220,15 @@
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+
+            <div class="donde-encontrarnos col-12">
+                <div class="row justify-content-center">
+                    <div class="col-12 mb-4">
+                        <h2 class="text-center h2 m-0 text-dark">Donde encontrarnos</h2>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.12709438945!2d-58.35825038458987!3d-34.67674166887283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3333ba2912519%3A0xa14a7d22ce6c9bba!2sAv.+Manuel+Belgrano+2169%2C+B1872FVA+Sarand%C3%AD%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1560891690715!5m2!1ses!2sar" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

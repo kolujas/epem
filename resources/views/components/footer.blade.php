@@ -26,8 +26,9 @@
     </ul>
 </nav>
 
-<nav class="nav row justify-content-start redesSociales col-md-4 ml-auto p-0 pb-4 mt-md-4">
+<nav class="nav row justify-content-start redesSociales col-md-4 ml-auto p-0 pb-4 pb-md-0 mt-md-4">
     <a class="nav-link col-2" href="https://www.facebook.com.ar"><i class="fab fa-facebook-f"></i></a>
     <a class="nav-link col-2" href="https://www.twitter.com.ar"><i class="fab fa-twitter"></i></a>
     <a class="nav-link col-2" href="https://www.instagram.com.ar"><i class="fab fa-instagram"></i></a>
+    <p class="col-12 text-white m-0">© EPEM. Todos los Derechos Reservados. | Desarrollado por Digitalo</p>
 </nav>
