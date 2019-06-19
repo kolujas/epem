@@ -192,30 +192,49 @@
                     <div class="col-12 mb-4">
                         <h2 class="text-center h2 m-0 text-dark">Contacto</h2>
                     </div>                
-                    <form class="col-12 col-lg-5 col-xl-4 m-auto py-4" action="/contactar" method="post">
+                    <form class="col-12 col-lg-5 col-xl-4 m-auto py-4 needs-validation" novalidate action="/contactar" method="post">
                         @csrf
                         <div class="row justify-content-center">
                             <div class="form-group col-11">
                                 <label for="nombre">Nombre</label>
-                                <input name="nombre" class="form-control" id="nombre" type="text" placeholder="Nombre">
+                                <input name="nombre" class="form-control nombre" id="nombre" type="text" placeholder="Nombre" required minlength=2 maxlength=60>
+                                <div class="invalid-feedback">
+                                Escribe tu nombre
+                                </div>
+                                <div class="error">
+                                @if($errors->has('nombre')){{ $errors->first('nombre') }}@endif
+                                </div>
                             </div>
                             <div class="form-group col-11">
                                 <label for="telefono">Teléfono</label>
-                                <input name="telefono" class="form-control" id="telefono" type="number" placeholder="Telefono">
+                                <input name="telefono" class="form-control telefono" id="telefono" type="number" placeholder="Telefono" required> 
+                                <div class="invalid-feedback">
+                                Escribe tu teléfono
+                                </div>
+                                <span class="error">@if($errors->has('telefono')){{ $errors->first('telefono') }}@endif</span>
                             </div>
                             <div class="form-group col-11">
                                 <label for="formEmail">Email</label>
-                                <input name="correo" type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Email">
+                                <input name="correo" type="email" class="form-control email" id="formEmail" aria-describedby="emailHelp" placeholder="Email" required maxlength=100>
+                                <div class="invalid-feedback">
+                                    Escribe tu email (debe ser válido)
+                                </div>
+                                <span class="error">@if($errors->has('correo')){{ $errors->first('correo') }}@endif</span>
                             </div>
                             <div class="form-group col-11">
                                 <label for="formMensaje">Mensaje</label>
-                                <textarea name="descripcion" class="form-control" id="formMensaje" rows="3" placeholder="Mensaje"></textarea>
+                                <textarea name="descripcion" class="form-control descripcion" id="formMensaje" rows="3" placeholder="Mensaje" required></textarea>
+                                <div class="invalid-feedback">
+                                    Escribe tu mensaje
                             </div>
+                            <span class="error">@if($errors->has('descripcion')){{ $errors->first('descripcion') }}@endif</span>
+                            </div>                            
                             <div class="col-12 text-center">
                                 <button type="submit" class="btn-lg m-auto text-white enviarForm">Enviar</button> 
                             </div>
                         </div>
                     </form>
+                  
                 </div>
             </div>
         </div>

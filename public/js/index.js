@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function(){
     header = header[0];
     window.addEventListener('scroll', function (event){
         let scroll = this.scrollY;
-        this.console.log(scroll);
         if(scroll <= 80){
             header.classList.add('top-top-menu');
             header.classList.remove('top-menu');
