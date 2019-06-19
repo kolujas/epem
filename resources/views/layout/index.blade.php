@@ -18,7 +18,7 @@
         <title>@yield('titulo')</title>
     </head>
     <body>
-        <header>
+        <header id="header">
             <section>
                 @yield('nav')
             </section>
@@ -46,6 +46,8 @@
         <script type="text/javascript" src="{{ asset('https://unpkg.com/scrollreveal') }}"></script>
         <script type="text/javascript" src="{{ asset('js/index.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/scrollReveal.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/headroom.js') }}"></script>
+
         @yield('js')
     </body>
 </html>

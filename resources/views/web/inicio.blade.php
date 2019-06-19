@@ -23,7 +23,7 @@
                     <p class="h4 text-white px-5 text-center">Desarrollamos un modelo integral, centrado en personas mayores que deseen interactuar con otros y participar en actividades recreativas y terapéuticas, que promuevan su autonomía</p>
                 </div>
                 <div class="banner-contact col-12 text-center">
-                    <button type="button" class="btn-lg btn-outline-primary m-auto text-white btnContact">Contactate</button>
+                    <a href="#contacto"type="button" class="btn-lg btn-outline-primary m-auto text-white btnContact">Contactate</a>
                 </div>
             </div>
    
@@ -262,4 +262,5 @@
 
 @section('js')
     <script type="text/javascript" src="{{ asset('js/web/inicio.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/headroom.js') }}"></script>
 @endsection
