@@ -23,7 +23,7 @@
                     <p class="h4 text-white px-5 text-center">Te responderemos en la brevedad</p>
                 </div>
                 <div class="banner-contact col-12 text-center">
-                    <button type="button" class="btn-lg btn-outline-primary m-auto text-white btnContact">Volver</button>
+                    <a href="/" class="btn-lg btn-outline-primary m-auto text-white btnContact">Volver</a>
                 </div>
             </div>
         </div>

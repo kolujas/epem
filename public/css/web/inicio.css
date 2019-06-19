@@ -58,6 +58,7 @@
 .btnContact:hover{
     transition: 800ms;
     background-color:#2980d6;
+    text-decoration: none;
 }
 
 .lista-solucion li i{
@@ -107,10 +108,6 @@
 
 input::placeholder{
     color: #A4A4A4;
-}
-
-.btnContact{
-    display: none;
 }
 
 /* footer */
