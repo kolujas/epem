@@ -1,4 +1,4 @@
-let error = {
+/* let error = {
     spans: document.querySelectorAll('.error'),
     cambiarTexto(posicion, texto){
       this.spans[posicion].innerHTML = texto;
@@ -6,7 +6,7 @@ let error = {
   };
   
   let nombre = {
-    input: document.querySelector('.nombrecito'),
+    input: document.querySelector('.nombre'),
     regExp: /^[a-zA-Z ]*$/,
     load(){
       this.input.addEventListener('blur', function(evento){
@@ -33,12 +33,12 @@ let error = {
       }
     },
     setClassName(texto){
-      this.input.className = 'validate nombrecito ' + texto;
+      this.input.className = 'validate nombre ' + texto;
     },
   };
   
   let email = {
-    input: document.querySelector('.emailcito'),
+    input: document.querySelector('.email'),
     regExp: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
     load(){
       this.input.addEventListener('blur', function(evento){
@@ -65,12 +65,12 @@ let error = {
       }
     },
     setClassName(texto){
-      this.input.className = 'validate emailcito ' + texto;
+      this.input.className = 'validate email ' + texto;
     },
   };
   
   let telefono = {
-    input: document.querySelector('.telefonito'),
+    input: document.querySelector('.tel'),
     regExp: /[1-4]/g,
     load(){
       this.input.addEventListener('blur', function(evento){
@@ -102,7 +102,7 @@ let error = {
   };
   
   let descripcion = {
-    input: document.querySelector('.descripcioncita'),
+    input: document.querySelector('.descripcion'),
     // regExp: /"[0-9a-zA-Z' ']{10,} /,
     load(){
       this.input.addEventListener('blur', function(evento){
@@ -154,4 +154,28 @@ let error = {
       success = true;
     };
     return success;
-  };
+  }; */
+
+// Tooltips Initialization
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+  })
+
+
+    window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var form = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(form, function(form) {
+    form.addEventListener('submit', function
+    (event) {
+    if (form.checkValidity() === false) {
+    event.preventDefault();
+    event.stopPropagation();
+    console.log("pepe");
+    }
+    form.classList.add('was-validated');
+    }, false);
+    });
+    }, false);
+  
