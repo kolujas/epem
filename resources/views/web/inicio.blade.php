@@ -245,7 +245,7 @@
             <div class="donde-encontrarnos col-12">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
-                        <h2 class="text-center h2 m-0 text-dark">Donde encontrarnos</h2>
+                        <h2 class="text-center h2 m-0 text-dark">Ubicación</h2>
                     </div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.12709438945!2d-58.35825038458987!3d-34.67674166887283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3333ba2912519%3A0xa14a7d22ce6c9bba!2sAv.+Manuel+Belgrano+2169%2C+B1872FVA+Sarand%C3%AD%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1560891690715!5m2!1ses!2sar" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
