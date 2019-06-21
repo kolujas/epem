@@ -5,7 +5,7 @@
 @endsection
 
 @section('titulo')
-    EPEM
+    El Club
 @endsection
 
 @section('nav')
@@ -128,9 +128,9 @@
                         </ul>
                     </div>
                 
-                    <div class="col-12 text-center mt-4">
+                    <!-- <div class="col-12 text-center mt-4">
                         <button type="button" class="btn-lg btn-outline-primary m-auto text-white btnContact">Contactate</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -190,6 +190,23 @@
                     </div>
                 </div>
             </div>
+
+            <div class="frase container py-5">
+                <div class="row">
+                    <ul class="m-auto py-3 list-group list-group-flush h5">
+                        <li>
+                            <span><i class="fas fa-plus"></i></span> Activos
+                        </li>
+                        <li>
+                            <span><i class="fas fa-plus"></i></span> Iguales
+                        </li>
+                        <li class="mr-2">
+                            <span><i class="fas fa-plus"></i></span> Libres
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
 
             <div id="contacto" class="contacto col-12 py-4 contacto text-white formContent">
                 <div class="row justify-content-center">
