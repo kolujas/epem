@@ -82,9 +82,6 @@
 
 /* form */
 
-.contacto{
-    background: #e9ecef;
-}
 
 .contacto form input:focus{
     box-shadow: none;
