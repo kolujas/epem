@@ -13,6 +13,7 @@
         <meta http-equiv="Last-Modified" content="0">
         <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
         <meta http-equiv="Pragma" content="no-cache">
+        <meta name="google-site-verification" content="vxyPdxyaKSRN-iZo7TXNI_aIwLbJhqSyAC2Tb0bPR8o" />
 
         <!--CSS-->
         <link href="{{ asset('css/index.css') }}" rel="stylesheet">
@@ -28,12 +29,6 @@
                 @yield('nav')
             </section>
         </header>
-
-        @if(Session::has('status'))
-          <div id="notificacion">
-            <p>{{ Session::get('status') }}</p>
-          </div>
-        @endif
           
         <main>
             @yield('main')
