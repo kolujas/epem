@@ -14,7 +14,7 @@
         <li class="nav-item">
             <a class="nav-link row" href="#">
                 <i class="fas fa-phone col-1"></i>
-                <span class="col-8 text-white">1-800-1234-567</span>
+                <span class="col-8 text-white">1132583841</span>
             </a>
         </li>
         <li class="nav-item">

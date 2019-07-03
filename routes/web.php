@@ -11,44 +11,15 @@
     */
 
 /** WebController */
-    Route::get('/', 'WebController@inicio')->name('web.inicio');
-
-    Route::middleware('auth')->group(function(){
-        Route::middleware('admin')->group(function(){
-            Route::get('/panel', 'WebController@panel')->name('web.panel');
-        });
+    Route::get('/', function (){
+        return redirect()->route('web.inicio');
     });
 
-    /** CorreoController */
-    Route::post('/contactar', 'CorreoController@contactar')->name('correo.contactar');
+    Route::get('/el-club', 'WebController@inicio')->name('web.inicio');
 
-    Route::get('/gracias', 'CorreoController@gracias')->name('correo.gracias');
+    Route::prefix('el-club')->middleware('admin')->group(function(){
+/** CorreoController */
+        Route::post('/contactar', 'CorreoController@contactar')->name('correo.contactar');
 
-/** AuthController */
-    Route::get('/ingresar', 'AuthController@showIngresar')->name('auth.showIngresar');
-
-    Route::post('/ingresar', 'AuthController@doIngresar')->name('auth.doIngresar');
-
-    Route::get('/registrar', 'AuthController@showRegistrar')->name('auth.showRegistrar');
-
-    Route::post('/registrar', 'AuthController@doRegistrar')->name('auth.doRegistrar');
-
-    Route::middleware('auth')->group(function(){
-        Route::get('/salir', 'AuthController@doSalir')->name('auth.doSalir');
-        
-/** NoticiaController */
-        Route::middleware('admin')->group(function(){
-            Route::get('/noticia/crear', 'NoticiaController@showCrear')->name('noticia.showCrear');
-
-            Route::post('/noticia/crear', 'NoticiaController@doCrear')->name('noticia.doCrear');
-        });
+        Route::get('/gracias', 'CorreoController@gracias')->name('correo.gracias');
     });
-
-
-// Ingresar
-
-Route::get('/panel', 'WebController@ingresar')->name('web.ingresar');
-
-
-Route::get('/evento/crear', 'WebController@crear')->name('eventos.crear');
-Route::get('/eventos', 'WebController@listado')->name('eventos.listado');

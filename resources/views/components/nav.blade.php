@@ -9,7 +9,7 @@
             <i class="fas fa-bars fa-lg text-dark"></i>
     </button>
 
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
         <h1>EPEM</h1>
     </a>
 
@@ -19,16 +19,16 @@
                 <a class="nav-link" href="/">Inicio<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#nuestros-servicios">Servicios</a>
+                <a class="nav-link" href="#nuestros-servicios">Servicios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#el-club">El club</a>
+                <a class="nav-link" href="#el-club">El club</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#el-equipo">El equipo</a>
+                <a class="nav-link" href="#el-equipo">El equipo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/#contacto">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
             </li>
         </ul>
     </div>
