@@ -30,5 +30,5 @@
     <a class="nav-link col-2" href="https://www.facebook.com.ar"><i class="fab fa-facebook-f"></i></a>
     <a class="nav-link col-2" href="https://www.twitter.com.ar"><i class="fab fa-twitter"></i></a>
     <a class="nav-link col-2" href="https://www.instagram.com.ar"><i class="fab fa-instagram"></i></a>
-    <p class="col-12 text-white m-0">© EPEM. Todos los Derechos Reservados. | Desarrollado por Digitalo</p>
+    <p class="col-12 text-white m-0">© EPEM. Todos los Derechos Reservados. Desarrollado por <a class="text-white" href="https://www.digitalo.com.ar">Digitalo</a></p>
 </nav>

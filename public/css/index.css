@@ -108,4 +108,8 @@ footer .redesSociales i{
       .headroom--unpinned{
         transform: translateY(-100%);
       }
+
+      footer a:hover{
+        text-decoration: none; 
+      }
 }

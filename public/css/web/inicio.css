@@ -82,9 +82,6 @@
 
 /* form */
 
-.contacto{
-    background: #e9ecef;
-}
 
 .contacto form input:focus{
     box-shadow: none;
@@ -195,6 +192,17 @@ footer p{
 
 .donde-encontrarnos iframe{
     width: 100%;
+}
+
+.frase ul{
+    list-style: none;
+    font-family: 'Pacifico', cursive;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid red;
+    width: 55%;
+    text-align: center;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
 }
 
 @media(min-width: 768px){

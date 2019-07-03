@@ -16,10 +16,8 @@
     });
 
     Route::get('/el-club', 'WebController@inicio')->name('web.inicio');
-
-    Route::prefix('el-club')->middleware('admin')->group(function(){
+    
 /** CorreoController */
-        Route::post('/contactar', 'CorreoController@contactar')->name('correo.contactar');
+    Route::post('/contactar', 'CorreoController@contactar')->name('correo.contactar');
 
-        Route::get('/gracias', 'CorreoController@gracias')->name('correo.gracias');
-    });
+    Route::get('/gracias', 'CorreoController@gracias')->name('correo.gracias');

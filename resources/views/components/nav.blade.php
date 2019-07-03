@@ -19,16 +19,32 @@
                 <a class="nav-link" href="/">Inicio<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#nuestros-servicios">Servicios</a>
+                @if(URL::current() == url('gracias'))
+                    <a class="nav-link" href="/el-club#nuestros-servicios">Servicios</a>
+                @else
+                    <a class="nav-link" href="#nuestros-servicios">Servicios</a>
+                @endif
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#el-club">El club</a>
+                @if(URL::current() == url('gracias'))
+                    <a class="nav-link" href="/el-club#el-club">El club</a>
+                @else
+                    <a class="nav-link" href="#el-club">El club</a>
+                @endif
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#el-equipo">El equipo</a>
+                @if(URL::current() == url('gracias'))
+                    <a class="nav-link" href="/el-club#el-equipo">El equipo</a>
+                @else
+                    <a class="nav-link" href="#el-equipo">El equipo</a>
+                @endif
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
+                @if(URL::current() == url('gracias'))
+                    <a class="nav-link" href="/el-club#contacto">Contacto</a>
+                @else
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                @endif
             </li>
         </ul>
     </div>

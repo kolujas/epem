@@ -5,7 +5,7 @@
 @endsection
 
 @section('titulo')
-    EPEM
+    El Club
 @endsection
 
 @section('nav')
@@ -56,7 +56,7 @@
                         <div class="card col-12 col-md-5 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
-                                <i class="fab fa-accessible-icon fa-7x mb-3"></i>
+                                    <i class="fab fa-accessible-icon fa-7x mb-3"></i>
                                 </span>
                                 <p class="card-text text-center">Proporcionamos el apoyo para cada nivel de necesidad.</p>
                             </div>
@@ -128,9 +128,9 @@
                         </ul>
                     </div>
                 
-                    <div class="col-12 text-center mt-4">
+                    <!-- <div class="col-12 text-center mt-4">
                         <button type="button" class="btn-lg btn-outline-primary m-auto text-white btnContact">Contactate</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -191,6 +191,23 @@
                 </div>
             </div>
 
+            <div class="frase container py-5">
+                <div class="row">
+                    <ul class="m-auto py-3 list-group list-group-flush h5">
+                        <li>
+                            <span><i class="fas fa-plus"></i></span> Activos
+                        </li>
+                        <li>
+                            <span><i class="fas fa-plus"></i></span> Iguales
+                        </li>
+                        <li class="mr-2">
+                            <span><i class="fas fa-plus"></i></span> Libres
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
             <div id="contacto" class="contacto col-12 py-4 contacto text-white formContent">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
@@ -238,14 +255,13 @@
                             </div>
                         </div>
                     </form>
-                  
                 </div>
             </div>
 
             <div class="donde-encontrarnos col-12">
                 <div class="row justify-content-center">
-                    <div class="col-12 mb-4">
-                        <h2 class="text-center h2 m-0 text-dark">Donde encontrarnos</h2>
+                    <div class="col-12 my-4">
+                        <h2 class="text-center h2 m-0 text-dark">Ubicación</h2>
                     </div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.12709438945!2d-58.35825038458987!3d-34.67674166887283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3333ba2912519%3A0xa14a7d22ce6c9bba!2sAv.+Manuel+Belgrano+2169%2C+B1872FVA+Sarand%C3%AD%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1560891690715!5m2!1ses!2sar" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>

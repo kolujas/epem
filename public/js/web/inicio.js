@@ -1,5 +1,3 @@
-
-
 // Tooltips Initialization
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
@@ -22,7 +20,7 @@ window.addEventListener('load', function(){
 
 // headroom
 
-$// grab an element
+// $ grab an element
 var myElement = document.querySelector("#header");
 // construct an instance of Headroom, passing the element
 var headroom  = new Headroom(myElement);
