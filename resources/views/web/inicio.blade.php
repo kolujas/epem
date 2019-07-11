@@ -259,9 +259,8 @@
             </div>
             
             
-            <div class="whatsapp" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+            <div class="whatsapp">
                 <a target="_blank" href="https://wa.me/5491132583841"><img src="/img/wsp.png" alt="Icono de whatsapp"></a>
-                
             </div>
 
             <div class="donde-encontrarnos col-12">
