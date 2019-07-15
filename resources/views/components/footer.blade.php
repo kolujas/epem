@@ -14,13 +14,13 @@
         <li class="nav-item">
             <a class="nav-link row" href="#">
                 <i class="fas fa-phone col-1"></i>
-                <span class="col-8 text-white">1132583841</span>
+                <span class="col-8 text-white">11 6086-4881</span>
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link row" href="#">
                 <i class="fas fa-envelope col-1"></i>
-                <span class="col-8 text-white">info@epem.com</span>
+                <span class="col-8 text-white">info@epem.com.ar</span>
             </a>
         </li>
     </ul>

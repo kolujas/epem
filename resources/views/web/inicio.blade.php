@@ -127,10 +127,6 @@
                             <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Personal administrativo</li>
                         </ul>
                     </div>
-                
-                    <!-- <div class="col-12 text-center mt-4">
-                        <button type="button" class="btn-lg btn-outline-primary m-auto text-white btnContact">Contactate</button>
-                    </div> -->
                 </div>
             </div>
 
@@ -207,7 +203,6 @@
                 </div>
             </div>
 
-
             <div id="contacto" class="contacto col-12 py-4 contacto text-white formContent">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
@@ -257,7 +252,6 @@
                     </form>
                 </div>
             </div>
-            
             
             <div class="whatsapp">
                 <a target="_blank" href="https://wa.me/5491132583841"><img src="/img/wsp.png" alt="Icono de whatsapp"></a>
