@@ -40,33 +40,6 @@
             return redirect()->route('correo.gracias');
         }
 
-        /** 
-         * Contacta a un Usuario con los Administradores.
-         * 
-         * @param $request Request
-         */
-        public function preguntar(Request $request){
-            $inputData = $request->input();
-
-            $request->validate(Web::$reglas['preguntar'], [
-                'correo.required' => 'El correo es obligatorio.',
-                'correo.max' => 'El correo no puede tener más de :max caracteres.',
-                'suscriptor.required' => 'El número de suscripcion es obligatorio.',
-                'suscriptor.numeric' => 'El número de suscripcion debe ser un valor numerico.',
-                'suscriptor.exists' => 'El número de suscripcion debe ser un numero existente.',
-                'descripcion.required' => 'El mensaje no puede estar vacío.',
-            ]);
-
-            $objDemo = new \stdClass();
-            $objDemo->correo = $inputData['correo'];
-            $objDemo->suscriptor = $inputData['suscriptor'];
-            $objDemo->descripcion = $inputData['descripcion'];
-
-            Mail::to('info@mutualcoop.org.ar')->send(new PreguntarMail($objDemo));
-
-            return redirect()->route('suscripcion.listado')->with('status', 'Gracias por contactarte, te responderemos en la brevedad.');
-        }
-
         /** De vuelve la visgta de mensaje de exito. */
         public function gracias(){
             return view('correo.gracias');
