@@ -35,7 +35,7 @@
             $objDemo->descripcion = $inputData['descripcion'];
 
             
-            Mail::to('juancarmentia@gmail.com')->send(new Contactar($objDemo));
+            Mail::to('info@epem.com.ar')->send(new Contactar($objDemo));
 
             return redirect()->route('correo.gracias');
         }
