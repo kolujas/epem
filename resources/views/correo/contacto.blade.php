@@ -10,7 +10,7 @@
 	<tr>
 		<td style="background-color: #ecf0f1">
 			<div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
-				<h2 style="color: rgb(32, 101, 171);margin:0 0 7px;">{{ $data->nombre }} quiere contactar a alguien</h2>
+				<h2 style="color: rgb(32, 101, 171);margin:0 0 7px;">{{ $data->nombre }} quiere contactarte</h2>
 				<ul style="font-size: 15px;  margin: 10px 0">
 					<li><strong>Se ha contactado:</strong> {{ $data->nombre }} desde tu sitio web.</li>
 					<li><strong>Email:</strong> {{ $data->correo }}</li>
