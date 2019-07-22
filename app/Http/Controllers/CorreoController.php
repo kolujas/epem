@@ -26,6 +26,8 @@
                 'telefono.required' => 'El teléfono es obligatorio.',
                 'telefono.numeric' => 'El teléfono debe ser un valor numérico.',
                 'descripcion.required' => 'La descripción de no puede estar vacío.',
+                'g-recaptcha-response.required' => 'La verficación es obligatoria.',
+                'g-recaptcha-response.recaptcha' => 'Usted no es un humano.'
             ]);
 
             $objDemo = new \stdClass();

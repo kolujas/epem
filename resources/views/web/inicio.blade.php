@@ -244,7 +244,11 @@
                                     Escribe tu mensaje
                             </div>
                             <span class="error">@if($errors->has('descripcion')){{ $errors->first('descripcion') }}@endif</span>
-                            </div>                            
+                            </div>
+                            <div class="mb-3">
+                                {!! Recaptcha::render() !!}
+                                <span class="error">@if($errors->has('g-recaptcha-response')){{ $errors->first('g-recaptcha-response') }}@endif</span>
+                            </div>                           
                             <div class="col-12 text-center">
                                 <button type="submit" class="btn-lg m-auto text-white enviarForm">Enviar</button> 
                             </div>

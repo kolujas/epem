@@ -11,6 +11,7 @@
                 'correo' => 'required|email|max:100',
                 'telefono' => 'required|numeric',
                 'descripcion' => 'required',
+                'g-recaptcha-response' => 'required|recaptcha',
             ],
         ];
     }
