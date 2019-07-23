@@ -213,7 +213,7 @@
                         <div class="row justify-content-center">
                             <div class="form-group col-11">
                                 <label for="nombre">Nombre</label>
-                                <input name="nombre" class="form-control nombre" id="nombre" type="text" placeholder="Nombre" required minlength=2 maxlength=60>
+                                <input name="nombre" class="form-control nombre" id="nombre" type="text" placeholder="Nombre" required minlength=2 maxlength=60 value="{{ old('nombre') }}">
                                 <div class="invalid-feedback">
                                 Escribe tu nombre
                                 </div>
@@ -223,7 +223,7 @@
                             </div>
                             <div class="form-group col-11">
                                 <label for="telefono">Teléfono</label>
-                                <input name="telefono" class="form-control telefono" id="telefono" type="number" placeholder="Telefono" required> 
+                                <input name="telefono" class="form-control telefono" id="telefono" type="number" placeholder="Telefono" value="{{ old('telefono') }}" required> 
                                 <div class="invalid-feedback">
                                 Escribe tu teléfono
                                 </div>
@@ -231,7 +231,7 @@
                             </div>
                             <div class="form-group col-11">
                                 <label for="formEmail">Email</label>
-                                <input name="correo" type="email" class="form-control email" id="formEmail" aria-describedby="emailHelp" placeholder="Email" required maxlength=100>
+                                <input name="correo" type="email" class="form-control email" id="formEmail" aria-describedby="emailHelp" placeholder="Email" required maxlength=100 value="{{ old('correo') }}">
                                 <div class="invalid-feedback">
                                     Escribe tu email (debe ser válido)
                                 </div>
@@ -239,7 +239,7 @@
                             </div>
                             <div class="form-group col-11">
                                 <label for="formMensaje">Mensaje</label>
-                                <textarea name="descripcion" class="form-control descripcion" id="formMensaje" rows="3" placeholder="Mensaje" required></textarea>
+                                <textarea name="descripcion" class="form-control descripcion" id="formMensaje" rows="3" placeholder="Mensaje" required>{{ old('descripcion') }}</textarea>
                                 <div class="invalid-feedback">
                                     Escribe tu mensaje
                             </div>
