@@ -122,7 +122,7 @@
                             <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Kinesiología</li>
                             <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Psicología</li>
                             <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Trabajo social</li>
-                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Prof eduación física</li>
+                            <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Profesor de eduación física</li>
                             <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Talleristas</li>
                             <li class="mb-2 pb-lg-1 pb-xl-2"><span class="fa-li"><i class="fas fa-check"></i></span>Personal administrativo</li>
                         </ul>
@@ -167,7 +167,7 @@
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/educacion_fisica.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Prof. Educación Fisica</h3>
+                            <h3 class="card-title h4 m-0 text-right">Profesor de Educación Fisica</h3>
                         </div>
                     </div>
                     
