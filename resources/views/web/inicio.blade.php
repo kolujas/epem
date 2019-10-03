@@ -5,7 +5,7 @@
 @endsection
 
 @section('titulo')
-    El Club
+    EPEM - El Club - Centro para personas mayores
 @endsection
 
 @section('nav')

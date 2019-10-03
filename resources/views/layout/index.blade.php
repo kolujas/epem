@@ -15,6 +15,8 @@
         <meta http-equiv="Pragma" content="no-cache">
         <meta name="google-site-verification" content="vxyPdxyaKSRN-iZo7TXNI_aIwLbJhqSyAC2Tb0bPR8o" />
 
+        <meta name="description" content="Centro para personas mayores. Desarrollamos un modelo integral, centrado en personas mayores que deseen interactuar con otros y participar en actividades recreativas y terapéuticas, que promuevan su autonomía.">
+
         <!--CSS-->
         <link href="{{ asset('css/index.css') }}" rel="stylesheet">
         <link href="{{ asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
