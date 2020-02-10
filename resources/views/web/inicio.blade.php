@@ -150,8 +150,8 @@
                         <img class="card-img-top" src="img/equipo/Directora Medica - Dra Alicia Miranda.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
-                                <span>Directora Medica</span>
-                                <span>Dra Alicia Miranda</span>
+                                <span>Directora Médica</span>
+                                <span>Dra. Alicia Miranda</span>
                             </h3>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                         <img class="card-img-top" src="img/equipo/Encargado cocina - Fabio Oscar Lares.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
-                                <span>Encargado cocina</span>
+                                <span>Encargado de Cocina</span>
                                 <span>Fabio Oscar Lares</span>
                             </h3>
                         </div>
@@ -171,7 +171,7 @@
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Enfermera</span>
-                                <span>Lic Clarita de Jesus Altamiranda</span>
+                                <span>Lic. Clarita de Jesus Altamiranda</span>
                             </h3>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Nutricionista</span>
-                                <span>Lic Florencia Ludevid</span>
+                                <span>Lic. Florencia Ludevid</span>
                             </h3>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                         <img class="card-img-top" src="img/equipo/Prof Ed fisica - Matias Ulloa.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
-                                <span>Prof Ed fisica</span>
+                                <span>Profesor de Educación Física</span>
                                 <span>Matias Ulloa</span>
                             </h3>
                         </div>
@@ -200,7 +200,7 @@
                         <img class="card-img-top" src="img/equipo/Psicologa - Lic Laura Moura Frietas.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
-                                <span>Psicologa</span>
+                                <span>Psicóloga</span>
                                 <span>Lic Laura Moura Frietas</span>
                             </h3>
                         </div>
