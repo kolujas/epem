@@ -88,8 +88,13 @@ html, body {
     border-bottom-right-radius: calc(.25rem - 1px);
 }
 
-.el-equipo .card-body h3{
-    width: 100%;
+.el-equipo .card .card-body h3{
+    flex-wrap: wrap;
+}
+
+.el-equipo .card .card-body h3 span{
+    flex-basis: 100%;
+    text-align: center;
 }
 
 /* form */
