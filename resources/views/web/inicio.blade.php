@@ -111,7 +111,7 @@
                     </div>
 
                     <figure class="col-12 col-md-8 col-lg-6 col-xl-5 mb-md-4 py-1 py-lg-2 py-xl-1">
-                        <img src="img/ancianos_piolas.jpg" class="img-fluid" alt="Responsive image">
+                        <img src="img/el-club-compressor.jpg" class="img-fluid" alt="Responsive image">
                     </figure>
 
                     <div class="club div-lista-solucion col-10 col-md-4 col-lg-3 col-xl-3">
@@ -137,7 +137,7 @@
 
                 <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
                     <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/equipo/Administrativo - Lucas Digilio.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Administrativo-compressor.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Administrativo</span>
@@ -147,7 +147,7 @@
                     </div>
 
                     <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/equipo/Directora Medica - Dra Alicia Miranda.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Directora-compressor.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Directora Médica</span>
@@ -157,7 +157,7 @@
                     </div>
 
                     <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/equipo/Encargado cocina - Fabio Oscar Lares.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Cocina-compressor.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Encargado de Cocina</span>
@@ -167,7 +167,7 @@
                     </div>
 
                     <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/equipo/Enfermera - Lic Clarita de Jesus Altamiranda.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Enfermera-compressor.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Enfermera</span>
@@ -177,7 +177,7 @@
                     </div>
                     
                     <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/equipo/Nutricionista - Lic Florencia Ludevid.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Nutricionista-compressor.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Nutricionista</span>
@@ -187,7 +187,7 @@
                     </div>
                     
                     <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/equipo/Prof Ed fisica - Matias Ulloa.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Ed-fisica-compressor.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Profesor de Educación Física</span>
@@ -197,7 +197,7 @@
                     </div>
 
                     <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/equipo/Psicologa - Lic Laura Moura Frietas.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Psicologa-compressor.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Psicóloga</span>
@@ -207,7 +207,7 @@
                     </div>
 
                     <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/equipo/Tallerista - Adrian Mortola.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Tallerista-compressor.png" alt="Card image cap">
                         <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Tallerista</span>
