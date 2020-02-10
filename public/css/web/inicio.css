@@ -23,10 +23,6 @@ html, body {
 	transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
 }
 
-/* .nuestros-servicios .card-body{
-    background-color:#e9ecef;
-} */
-
 .nuestros-servicios .card .fa-utensils, .fa-diagnoses, .fa-accessible-icon, .fa-user-friends, .fa-brain, .fa-hands-helping{
     background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%);
 	-webkit-background-clip: text;
@@ -77,6 +73,14 @@ html, body {
 	transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
 }
 
+img.card-img-top{
+    display: block;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin: auto;
+}
+
 .el-equipo .card-body{
     background:rgba(32, 101, 171, 0.65);
     color: white;
@@ -85,8 +89,6 @@ html, body {
 }
 
 /* form */
-
-
 .contacto form input:focus{
     box-shadow: none;
     border-color: #3C69CD;

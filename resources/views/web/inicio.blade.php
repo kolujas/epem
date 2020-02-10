@@ -35,7 +35,7 @@
                     </div>
 
                     <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
-                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                        <div class="card col-8 col-md-4 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                 <i class="fas fa-utensils fa-7x mb-3"></i>
@@ -44,7 +44,7 @@
                             </div>
                         </div>
 
-                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                        <div class="card col-8 col-md-4 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                     <i class="fas fa-diagnoses fa-7x mb-3"></i>
@@ -53,7 +53,7 @@
                             </div>
                         </div>
 
-                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                        <div class="card col-8 col-md-4 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                     <i class="fab fa-accessible-icon fa-7x mb-3"></i>
@@ -62,7 +62,7 @@
                             </div>
                         </div>
 
-                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                        <div class="card col-8 col-md-4 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                 <i class="fas fa-user-friends fa-7x mb-3"></i>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
 
-                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                        <div class="card col-8 col-md-4 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                 <i class="fas fa-brain fa-7x mb-3"></i>
@@ -80,7 +80,7 @@
                             </div>
                         </div>
 
-                        <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                        <div class="card col-8 col-md-4 col-lg-3 mb-4">
                             <div class="card-body row">
                                 <span class="col-12 text-center">
                                 <i class="fas fa-hands-helping fa-7x mb-3"></i>
@@ -136,59 +136,83 @@
                 </div>
 
                 <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
-                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                    <div class="card col-8 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Administrativo - Lucas Digilio.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Administrativo - Lucas Digilio</h3>
+                            <h3 class="card-title h4 m-0 text-right">
+                                <span>Administrativo</span>
+                                <span>Lucas Digilio</span>
+                            </h3>
                         </div>
                     </div>
 
-                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                    <div class="card col-8 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Directora Medica - Dra Alicia Miranda.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Directora Medica - Dra Alicia Miranda</h3>
+                            <h3 class="card-title h4 m-0 text-right">
+                                <span>Directora Medica</span>
+                                <span>Dra Alicia Miranda</span>
+                            </h3>
                         </div>
                     </div>
 
-                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                    <div class="card col-8 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Encargado cocina - Fabio Oscar Lares.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Encargado cocina - Fabio Oscar Lares</h3>
+                            <h3 class="card-title h4 m-0 text-right">
+                                <span>Encargado cocina</span>
+                                <span>Fabio Oscar Lares</span>
+                            </h3>
                         </div>
                     </div>
 
-                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                    <div class="card col-8 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Enfermera - Lic Clarita de Jesus Altamiranda.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Enfermera - Lic Clarita de Jesus Altamiranda</h3>
+                            <h3 class="card-title h4 m-0 text-right">
+                                <span>Enfermera</span>
+                                <span>Lic Clarita de Jesus Altamiranda</span>
+                            </h3>
                         </div>
                     </div>
                     
-                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                    <div class="card col-8 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Nutricionista - Lic Florencia Ludevid.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Nutricionista - Lic Florencia Ludevid</h3>
+                            <h3 class="card-title h4 m-0 text-right">
+                                <span>Nutricionista</span>
+                                <span>Lic Florencia Ludevid</span>
+                            </h3>
                         </div>
                     </div>
                     
-                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                    <div class="card col-8 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Prof Ed fisica - Matias Ulloa.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Profesor educación fisica - Matias Ulloa</h3>
+                            <h3 class="card-title h4 m-0 text-right">
+                                <span>Prof Ed fisica</span>
+                                <span>Matias Ulloa</span>
+                            </h3>
                         </div>
                     </div>
 
-                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                    <div class="card col-8 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Psicologa - Lic Laura Moura Frietas.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Psicologa - Lic Laura Moura Frietas</h3>
+                            <h3 class="card-title h4 m-0 text-right">
+                                <span>Psicologa</span>
+                                <span>Lic Laura Moura Frietas</span>
+                            </h3>
                         </div>
                     </div>
 
-                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                    <div class="card col-8 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Tallerista - Adrian Mortola.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Tallerista - Adrian Mortola</h3>
+                            <h3 class="card-title h4 m-0 text-right">
+                                <span>Tallerista</span>
+                                <span>Adrian Mortola</span>
+                            </h3>
                         </div>
                     </div>
                 </div>
