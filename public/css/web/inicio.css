@@ -89,12 +89,18 @@ html, body {
 }
 
 .el-equipo .card .card-body h3{
+    width: 100%;
+    height: 100%;
     flex-wrap: wrap;
 }
 
 .el-equipo .card .card-body h3 span{
     flex-basis: 100%;
     text-align: center;
+}
+
+.el-equipo .card .card-body h3 span:last-of-type{
+    color: rgba(0,0,0,.5);
 }
 
 /* form */

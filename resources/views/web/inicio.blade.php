@@ -138,7 +138,7 @@
                 <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
                     <div class="card col-6 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Administrativo - Lucas Digilio.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Administrativo</span>
                                 <span>Lucas Digilio</span>
@@ -148,7 +148,7 @@
 
                     <div class="card col-6 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Directora Medica - Dra Alicia Miranda.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Directora Medica</span>
                                 <span>Dra Alicia Miranda</span>
@@ -158,7 +158,7 @@
 
                     <div class="card col-6 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Encargado cocina - Fabio Oscar Lares.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Encargado cocina</span>
                                 <span>Fabio Oscar Lares</span>
@@ -168,7 +168,7 @@
 
                     <div class="card col-6 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Enfermera - Lic Clarita de Jesus Altamiranda.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Enfermera</span>
                                 <span>Lic Clarita de Jesus Altamiranda</span>
@@ -178,7 +178,7 @@
                     
                     <div class="card col-6 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Nutricionista - Lic Florencia Ludevid.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Nutricionista</span>
                                 <span>Lic Florencia Ludevid</span>
@@ -188,7 +188,7 @@
                     
                     <div class="card col-6 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Prof Ed fisica - Matias Ulloa.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Prof Ed fisica</span>
                                 <span>Matias Ulloa</span>
@@ -198,7 +198,7 @@
 
                     <div class="card col-6 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Psicologa - Lic Laura Moura Frietas.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Psicologa</span>
                                 <span>Lic Laura Moura Frietas</span>
@@ -208,7 +208,7 @@
 
                     <div class="card col-6 col-md-4 col-lg-3 mb-4">
                         <img class="card-img-top" src="img/equipo/Tallerista - Adrian Mortola.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body px-0">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Tallerista</span>
                                 <span>Adrian Mortola</span>
