@@ -30,7 +30,7 @@
             <div id="nuestros-servicios" class="nuestros-servicios col-12">
                 <div class="row justify-content-center">
                     <div class="col-12 my-4">
-                        <h2 class="text-center h3">Nuestros servicios</h2>
+                        <h2 class="text-center h3">Nuestros Servicios</h2>
                         <h3 class="text-center h5 m-0">Cómo podemos ayudarte</h3>
                     </div>
 
@@ -107,7 +107,7 @@
             <div id="el-club" class="el-club col-12 py-4">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
-                        <h2 class="text-center m-0">El club</h2>
+                        <h2 class="text-center m-0">El Club</h2>
                     </div>
 
                     <figure class="col-12 col-md-8 col-lg-6 col-xl-5 mb-md-4 py-1 py-lg-2 py-xl-1">
@@ -132,56 +132,63 @@
 
             <div id="el-equipo" class="el-equipo row col-12 justify-content-center">
                 <div class="col-12 my-4">
-                    <h2 class="text-center h3 m-0">El equipo</h2>
+                    <h2 class="text-center h3 m-0">El Equipo</h2>
                 </div>
 
                 <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/supervision_medica.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Administrativo - Lucas Digilio.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Supervisión Médica</h3>
+                            <h3 class="card-title h4 m-0 text-right">Administrativo - Lucas Digilio</h3>
                         </div>
                     </div>
 
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/nutricion.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Directora Medica - Dra Alicia Miranda.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Área de Nutrición</h3>
+                            <h3 class="card-title h4 m-0 text-right">Directora Medica - Dra Alicia Miranda</h3>
                         </div>
                     </div>
 
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/asistencia_geriatrica.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Encargado cocina - Fabio Oscar Lares.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Asistencia Geriátrica</h3>
+                            <h3 class="card-title h4 m-0 text-right">Encargado cocina - Fabio Oscar Lares</h3>
                         </div>
                     </div>
 
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/banner.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Enfermera - Lic Clarita de Jesus Altamiranda.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Trabajo Social</h3>
+                            <h3 class="card-title h4 m-0 text-right">Enfermera - Lic Clarita de Jesus Altamiranda</h3>
                         </div>
                     </div>
                     
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/educacion_fisica.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Nutricionista - Lic Florencia Ludevid.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Profesor de Educación Fisica</h3>
+                            <h3 class="card-title h4 m-0 text-right">Nutricionista - Lic Florencia Ludevid</h3>
                         </div>
                     </div>
                     
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/talleristas.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Prof Ed fisica - Matias Ulloa.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Talleristas</h3>
+                            <h3 class="card-title h4 m-0 text-right">Profesor educación fisica - Matias Ulloa</h3>
                         </div>
                     </div>
 
                     <div class="card col-12 col-md-5 col-lg-3 mb-4">
-                        <img class="card-img-top" src="img/terapia_ocupacional.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/equipo/Psicologa - Lic Laura Moura Frietas.png" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title h4 m-0 text-right">Terapia ocupacional</h3>
+                            <h3 class="card-title h4 m-0 text-right">Psicologa - Lic Laura Moura Frietas</h3>
+                        </div>
+                    </div>
+
+                    <div class="card col-12 col-md-5 col-lg-3 mb-4">
+                        <img class="card-img-top" src="img/equipo/Tallerista - Adrian Mortola.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title h4 m-0 text-right">Tallerista - Adrian Mortola</h3>
                         </div>
                     </div>
                 </div>

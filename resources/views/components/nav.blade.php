@@ -27,9 +27,9 @@
             </li>
             <li class="nav-item">
                 @if(URL::current() == url('gracias'))
-                    <a class="nav-link" href="/el-club#el-club">El club</a>
+                    <a class="nav-link" href="/el-club#el-club">El Club</a>
                 @else
-                    <a class="nav-link" href="#el-club">El club</a>
+                    <a class="nav-link" href="#el-club">El Club</a>
                 @endif
             </li>
             <li class="nav-item">
