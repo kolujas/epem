@@ -4,6 +4,7 @@
 @extends('layout.index')
 
 @section('css')
+    <link href="{{asset('css/galeria/grid/gallery-grid.css')}}" rel="stylesheet">
     <link href="{{ asset('css/web/inicio.css') }}" rel="stylesheet">
 @endsection
 
@@ -237,6 +238,38 @@
                 </div>
             </div>
 
+            <div id="galeria" class="gallery-container col-12 col-lg-10 p-0 mt-3 pt-3 mx-md-auto">
+                <h2 class="text-center mb-0 mt-4 pt-2">Galería de fotos</h2>
+                <div class="tz-gallery galeria px-3 pt-4 pb-0">
+                    <div class="row">
+                            <div class="col-sm-6 col-md-4 my-4">
+                                <a class="lightbox" href="">
+                                    <img class="mb-0" src="/img/educacion_fisica.jpg" alt="Park">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 my-4 d-none">
+                                <a class="lightbox" href=""></a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 my-4">
+                                <div class="empty-image p-1">
+                                    <div class="empty-content"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 my-4">
+                                <div class="empty-image p-1">
+                                    <div class="empty-content"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 my-4">
+                                <div class="empty-image p-1">
+                                    <div class="empty-content"></div>
+                                </div>
+                            </div>
+                    </div>
+                </div> 
+            </div>
+
+
             <div id="contacto" class="contacto col-12 py-4 contacto text-white formContent">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-4">
@@ -314,6 +347,13 @@
 
 
 @section('js')
-    <script type="text/javascript" src="{{ asset('js/web/inicio.js') }}"></script>
+    <script src="{{asset('js/galeria/baguetteBox.min.js')}}"></script>
     <script type="text/javascript" src="{{ asset('js/headroom.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/web/inicio.js') }}"></script>
+
+    <script>
+         baguetteBox.run('.tz-gallery', {
+            buttons: true,
+        });
+    </script>
 @endsection
