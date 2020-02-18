@@ -23,12 +23,18 @@
             'clave', 'remember_token',
         ];
         
-        /** Trae el Nivel que coincidan con el PK. */
+        /** 
+         * Trae el Nivel que coincidan con el PK.
+         * @return Nivel
+         */
         public function nivel(){
             return $this->belongsTo(Nivel::class, 'id_nivel', 'id_nivel');
         }
         
-        /** Trae todas las Noticias que coincidan con el PK. */
+        /** 
+         * Trae todas las Noticias que coincidan con el PK.
+         * @return Noticia[]
+         */
         public function noticias(){
             return $this->hasMany(Noticia::class, 'id_usuario', 'id_usuario');
         }
@@ -45,7 +51,10 @@
             ],'editar' => [],
         ];
 
-        /** Establece cual campo va a funcionar como la "Password" guardada para verificar su Autenticacion. */
+        /** 
+         * Establece cual campo va a funcionar como la "Password" guardada para verificar su Autenticacion.
+         * @return string
+         */
         public function getAuthPassword(){
             return $this->clave;
         }

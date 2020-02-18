@@ -19,10 +19,9 @@
     
         /**
          * Carga la seccion "Detalles de la Noticia" enviando la Noticia seleccionada.
-         * 
-         * @param $slug El slug de la Noticia pasado por la ruta
+         * @param string $slug - El slug de la Noticia pasado por la ruta
          */
-        public function detalles($slug){
+        public function detalles(string $slug){
             $noticia = Noticia::findBySlug($slug);
 
             return view('noticia.detalles', [
@@ -37,8 +36,7 @@
         
         /**
          * Valida y crea la Noticia con los datos del formulario.
-         * 
-         * @param $request Request
+         * @param Request $request
          */
         public function doCrear(Request $request){
             $inputData = $request->all();
@@ -81,10 +79,9 @@
         
         /**
          * Carga la seccion "Editar Noticia" enviando la Noticia seleccionada.
-         * 
-         * @param $slug El slug de la Noticia pasado por la ruta
+         * @param string $slug - El slug de la Noticia pasado por la ruta
          */
-        public function showEditar($slug){
+        public function showEditar(string $slug){
             $noticia = Noticia::findBySlug($slug);
 
             return view('noticia.editar', [
@@ -95,10 +92,10 @@
         /**
          * Valida y actualiza los datos de la Noticia seleccionada con los datos del formulario.
          * 
-         * @param $request Request
-         * @param $id_noticia El id de la Noticia pasado por la ruta
+         * @param Request $request
+         * @param integer $id_noticia - El id de la Noticia pasado por la ruta
          */
-        public function doEditar(Request $request, $id_noticia){
+        public function doEditar(Request $request, integer $id_noticia){
             $inputData = $request->input();
 
             $request->validate(Noticia::$reglas['editar'], [
@@ -151,10 +148,9 @@
 
         /**
          * Elimina la Noticia seleccionada.
-         * 
-         * @param $id_noticia El id de la Noticia pasado por la ruta
+         * @param integer $id_noticia - El id de la Noticia pasado por la ruta
          */
-        public function doEliminar($id_noticia){
+        public function doEliminar(integer $id_noticia){
             $noticia = Noticia::find($id_noticia);
 
             if(isset($noticia->imagen) && !empty($noticia->imagen)){

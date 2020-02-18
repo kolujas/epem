@@ -20,7 +20,10 @@
             'titulo', 'subtitulo', 'descripcion', 'fuente', 'imagen', 'id_usuario', 'slug',
         ];
         
-        /** Trae el Usuario que coincidan con el PK. */
+        /** 
+         * Trae el Usuario que coincidan con el PK.
+         * @return User
+         */
         public function usuario(){
             return $this->belongsTo(User::class, 'id_usuario', 'id_usuario');
         }

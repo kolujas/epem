@@ -9,8 +9,7 @@
     class CorreoController extends Controller{
         /** 
          * Contacta a un Usuario con los Administradores.
-         * 
-         * @param $request Request
+         * @param Request $request
          */
         public function contactar(Request $request){
             $inputData = $request->input();

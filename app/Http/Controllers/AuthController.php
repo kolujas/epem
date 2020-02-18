@@ -14,7 +14,7 @@
         /**
          * Valida y loguea al Usuario.
          * 
-         * @param $request Request
+         * @param Request $request
          */
         public function doIngresar(Request $request){
             $request->validate(User::$reglas['ingresar'], [
@@ -53,7 +53,7 @@
         /**
          * Valida y crea un Usuario.
          * 
-         * @param $request Request
+         * @param Request $request
          */
         public function doRegistrar(Request $request){
             $inputData = $request->input();

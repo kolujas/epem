@@ -3,11 +3,17 @@
 
     use Auth;
     use Illuminate\Http\Request;
+    use Illuminate\Support\Facades\Storage;
 
     class WebController extends Controller{
         /** Carga la seccion principal. */
         public function inicio(){
-            return view('web.inicio', []);
+            $gallery = collect([]);
+            foreach (Storage::files('public/gallery') as $filename) {
+                $gallery->push(Storage::url($filename));
+            }
+
+            return view('web.inicio', ['gallery' => $gallery]);
         }
 
         /** Carga la seccion panel de administrador. */

@@ -1,3 +1,6 @@
+<?php
+    /** @var array $gallery */
+?>
 @extends('layout.index')
 
 @section('css')

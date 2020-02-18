@@ -28,10 +28,9 @@
         
         /**
          * Carga la seccion "Editar Usuario" enviando el Usuario seleccionada.
-         * 
-         * @param $id_usuario El id de la Usuario pasado por la ruta
+         * @param integer $id_usuario - El id de la Usuario pasado por la ruta
          */
-        public function showEditar($id_usuario){
+        public function showEditar(integer $id_usuario){
             $usuario = User::find($id_usuario);
 
             return view('usuario.editar', [
@@ -42,10 +41,10 @@
         /**
          * Valida y actualiza los datos del Usuario seleccionada con los datos del formulario.
          * 
-         * @param $request Request
-         * @param $id_usuario El id del Usuario pasado por la ruta
+         * @param Request $request
+         * @param integer $id_usuario - El id del Usuario pasado por la ruta
          */
-        public function doEditar(Request $request, $id_usuario){
+        public function doEditar(Request $request, integer $id_usuario){
             $inputData = $request->input();
 
             $request->validate([
@@ -81,10 +80,9 @@
 
         /**
          * Elimina el Usuario seleccionado.
-         * 
-         * @param $id_usuario El id del Usuario pasado por la ruta
+         * @param integer $id_usuario - El id del Usuario pasado por la ruta
          */
-        public function doEliminar($id_usuario){
+        public function doEliminar(integer $id_usuario){
             $usuario = User::find($id_usuario);
                 
             $usuario->delete();

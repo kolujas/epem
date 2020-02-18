@@ -16,7 +16,10 @@
             'nombre',
         ];
         
-        /** Trae todos los Usuarios que coincidan con el PK. */
+        /** 
+         * Trae todos los Usuarios que coincidan con el PK.
+         * @return User[]
+         */
         public function usuarios(){
             return $this->hasMany(User::class, 'id_nivel', 'id_nivel');
         }
