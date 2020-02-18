@@ -222,7 +222,7 @@
                 </div>
             </div>
 
-            <div class="frase container py-5">
+            <div class="frase container col-12 py-5">
                 <div class="row">
                     <ul class="m-auto py-3 list-group list-group-flush h5">
                         <li>
@@ -261,7 +261,7 @@
                     <div class="col-12 mb-4">
                         <h2 class="text-center h2 m-0 text-dark">Contacto</h2>
                     </div>                
-                    <form class="col-12 col-lg-5 col-xl-4 m-auto needs-validation" novalidate action="/contactar" method="post">
+                    <form class="col-12 col-lg-5 col-xl-4 m-auto py-4 needs-validation" novalidate action="/contactar" method="post">
                         @csrf
                         <div class="row justify-content-center">
                             <div class="form-group col-11">
