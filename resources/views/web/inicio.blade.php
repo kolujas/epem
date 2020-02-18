@@ -5,7 +5,7 @@
 
 @section('css')
     <link href="{{asset('css/galeria/grid/gallery-grid.css')}}" rel="stylesheet">
-    <link href="{{ asset('css/web/inicio.css') }}" rel="stylesheet">
+    <link href="{{asset('css/web/inicio.css')}}" rel="stylesheet">
 @endsection
 
 @section('titulo')
@@ -39,57 +39,57 @@
                     </div>
 
                     <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
-                        <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                            <div class="card-body row">
-                                <span class="col-12 text-center">
-                                <i class="fas fa-utensils fa-7x mb-3"></i>
+                        <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2 ml-md-2">
+                            <div class="card-body row px-0">
+                                <span class="col-12 text-center p-0">
+                                    <i class="card-icon fas fa-utensils fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Proveemos una alimentación sana.</p>
+                                <p class="card-text text-center px-2">Proveemos una alimentación sana.</p>
                             </div>
                         </div>
 
-                        <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                            <div class="card-body row">
-                                <span class="col-12 text-center">
-                                    <i class="fas fa-diagnoses fa-7x mb-3"></i>
+                        <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2">
+                            <div class="card-body row px-0">
+                                <span class="col-12 text-center p-0">
+                                    <i class="card-icon fas fa-diagnoses fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Estimulamos la autonomía en las actividades de la vida diaria.</p>
+                                <p class="card-text text-center px-2">Estimulamos la autonomía en las actividades de la vida diaria.</p>
                             </div>
                         </div>
 
-                        <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                            <div class="card-body row">
-                                <span class="col-12 text-center">
-                                    <i class="fab fa-accessible-icon fa-7x mb-3"></i>
+                        <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2 mr-md-2">
+                            <div class="card-body row px-0">
+                                <span class="col-12 text-center p-0">
+                                    <i class="card-icon fab fa-accessible-icon fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Proporcionamos el apoyo para cada nivel de necesidad.</p>
+                                <p class="card-text text-center px-2">Proporcionamos el apoyo para cada nivel de necesidad.</p>
                             </div>
                         </div>
 
-                        <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                            <div class="card-body row">
-                                <span class="col-12 text-center">
-                                <i class="fas fa-user-friends fa-7x mb-3"></i>
+                        <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2 ml-md-2">
+                            <div class="card-body row px-0">
+                                <span class="col-12 text-center p-0">
+                                    <i class="card-icon fas fa-user-friends fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Ofrecemos un marco adecuado para el desarrollo de relaciones y actividades sociales gratificantes.</p>
+                                <p class="card-text text-center px-2">Ofrecemos un marco adecuado para el desarrollo de relaciones y actividades sociales gratificantes.</p>
                             </div>
                         </div>
 
-                        <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                            <div class="card-body row">
-                                <span class="col-12 text-center">
-                                <i class="fas fa-brain fa-7x mb-3"></i>
+                        <div class="card col-6 col-md-3 col-lg-3 mb-4 p-0 px-2">
+                            <div class="card-body row px-0">
+                                <span class="col-12 text-center p-0">
+                                    <i class="card-icon fas fa-brain fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Realizamos programas especiales para personas con diagnóstico de Alzheimer u otras demencias.</p>
+                                <p class="card-text text-center px-2">Realizamos programas especiales para personas con diagnóstico de Alzheimer u otras demencias.</p>
                             </div>
                         </div>
 
-                        <div class="card col-6 col-md-3 col-lg-3 mb-4">
-                            <div class="card-body row">
-                                <span class="col-12 text-center">
-                                <i class="fas fa-hands-helping fa-7x mb-3"></i>
+                        <div class="card col-6 col-md-3 col-lg-3 mb-4 p-0 px-2 mr-md-2">
+                            <div class="card-body row px-0">
+                                <span class="col-12 text-center p-0">
+                                    <i class="card-icon fas fa-hands-helping fa-7x mb-3"></i>
                                 </span>
-                                <p class="card-text text-center">Brindamos orientación a familiares y acompañantes de personas mayores.</p>
+                                <p class="card-text text-center px-2">Brindamos orientación a familiares y acompañantes de personas mayores.</p>
                             </div>
                         </div>
                     </div>
@@ -140,9 +140,9 @@
                 </div>
 
                 <div class="cartas row col-lg-10 col-xl-8 justify-content-center">
-                    <div class="card col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2 ml-md-2">
                         <img class="card-img-top" src="img/equipo/Administrativo-compressor.png" alt="Card image cap">
-                        <div class="card-body px-0">
+                        <div class="card-body px-1">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Administrativo</span>
                                 <span>Lucas Digilio</span>
@@ -150,9 +150,9 @@
                         </div>
                     </div>
 
-                    <div class="card col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2">
                         <img class="card-img-top" src="img/equipo/Directora-compressor.png" alt="Card image cap">
-                        <div class="card-body px-0">
+                        <div class="card-body px-1">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Directora Médica</span>
                                 <span>Dra. Alicia Miranda</span>
@@ -160,9 +160,9 @@
                         </div>
                     </div>
 
-                    <div class="card col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2 mr-md-2">
                         <img class="card-img-top" src="img/equipo/Cocina-compressor.png" alt="Card image cap">
-                        <div class="card-body px-0">
+                        <div class="card-body px-1">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Encargado de Cocina</span>
                                 <span>Fabio Oscar Lares</span>
@@ -170,9 +170,9 @@
                         </div>
                     </div>
 
-                    <div class="card col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2 ml-md-2">
                         <img class="card-img-top" src="img/equipo/Enfermera-compressor.png" alt="Card image cap">
-                        <div class="card-body px-0">
+                        <div class="card-body px-1">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Enfermera</span>
                                 <span>Lic. Clarita de Jesus Altamiranda</span>
@@ -180,9 +180,9 @@
                         </div>
                     </div>
                     
-                    <div class="card col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2">
                         <img class="card-img-top" src="img/equipo/Nutricionista-compressor.png" alt="Card image cap">
-                        <div class="card-body px-0">
+                        <div class="card-body px-1">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Nutricionista</span>
                                 <span>Lic. Florencia Ludevid</span>
@@ -190,9 +190,9 @@
                         </div>
                     </div>
                     
-                    <div class="card col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="card col-6 col-md-3 col-lg-3 mb-3 p-0 px-2 mr-md-2">
                         <img class="card-img-top" src="img/equipo/Ed-fisica-compressor.png" alt="Card image cap">
-                        <div class="card-body px-0">
+                        <div class="card-body px-1">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Profesor de Educación Física</span>
                                 <span>Matias Ulloa</span>
@@ -200,9 +200,9 @@
                         </div>
                     </div>
 
-                    <div class="card col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="card col-6 col-md-3 col-lg-3 mb-4 p-0 px-2">
                         <img class="card-img-top" src="img/equipo/Psicologa-compressor.png" alt="Card image cap">
-                        <div class="card-body px-0">
+                        <div class="card-body px-1">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Psicóloga</span>
                                 <span>Lic Laura Moura Frietas</span>
@@ -210,9 +210,9 @@
                         </div>
                     </div>
 
-                    <div class="card col-6 col-md-3 col-lg-3 mb-4">
+                    <div class="card col-6 col-md-3 col-lg-3 mb-4 p-0 px-2">
                         <img class="card-img-top" src="img/equipo/Tallerista-compressor.png" alt="Card image cap">
-                        <div class="card-body px-0">
+                        <div class="card-body px-1">
                             <h3 class="card-title d-flex h4 m-0">
                                 <span>Tallerista</span>
                                 <span>Adrian Mortola</span>
@@ -238,36 +238,22 @@
                 </div>
             </div>
 
-            <div id="galeria" class="gallery-container col-12 col-lg-10 p-0 mt-3 pt-3 mx-md-auto">
-                <h2 class="text-center mb-0 mt-4 pt-2">Galería de fotos</h2>
-                <div class="tz-gallery galeria px-3 pt-4 pb-0">
-                    <div class="row">
-                            <div class="col-sm-6 col-md-4 my-4">
-                                <a class="lightbox" href="">
-                                    <img class="mb-0" src="/img/educacion_fisica.jpg" alt="Park">
-                                </a>
-                            </div>
-                            <div class="col-sm-6 col-md-4 my-4 d-none">
-                                <a class="lightbox" href=""></a>
-                            </div>
-                            <div class="col-sm-6 col-md-4 my-4">
-                                <div class="empty-image p-1">
-                                    <div class="empty-content"></div>
+            @if(count($gallery))
+                <div id="galeria" class="gallery-container col-12 col-lg-10 p-0 mt-4 mx-md-auto">
+                    <h2 class="text-center m-0">Galería de fotos</h2>
+                    <div class="tz-gallery galeria p-0">
+                        <div class="row py-4 px-3">
+                            @for($i = 0; $i < count($gallery); $i++)
+                                <div class="col-sm-6 col-md-4 mb-4">
+                                    <a class="lightbox" href="{{asset($gallery[$i])}}">
+                                        <img class="mb-0" src="{{asset($gallery[$i])}}" alt="Park">
+                                    </a>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-md-4 my-4">
-                                <div class="empty-image p-1">
-                                    <div class="empty-content"></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-md-4 my-4">
-                                <div class="empty-image p-1">
-                                    <div class="empty-content"></div>
-                                </div>
-                            </div>
-                    </div>
-                </div> 
-            </div>
+                            @endfor
+                        </div>
+                    </div> 
+                </div>
+            @endif
 
 
             <div id="contacto" class="contacto col-12 py-4 contacto text-white formContent">
@@ -275,7 +261,7 @@
                     <div class="col-12 mb-4">
                         <h2 class="text-center h2 m-0 text-dark">Contacto</h2>
                     </div>                
-                    <form class="col-12 col-lg-5 col-xl-4 m-auto py-4 needs-validation" novalidate action="/contactar" method="post">
+                    <form class="col-12 col-lg-5 col-xl-4 m-auto needs-validation" novalidate action="/contactar" method="post">
                         @csrf
                         <div class="row justify-content-center">
                             <div class="form-group col-11">

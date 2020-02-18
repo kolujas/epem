@@ -1,4 +1,4 @@
-html, body { 
+html, body{ 
     overflow-x: hidden;
 }
 
@@ -7,11 +7,11 @@ html, body {
     padding: 0;
 }
 
-.patyMenu {
+.patyMenu{
     cursor: pointer;
 }
 
-.row {
+.row{
     margin-right: 0;
     margin-left: 0;
 }
@@ -19,7 +19,7 @@ html, body {
 .nuestros-servicios .card{
     border: none;
     padding: 5px;
-    /* background-color:#e9ecef; */
+    background-color: transparent;
 	transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
 }
 
@@ -27,6 +27,24 @@ html, body {
     background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.nuestros-servicios .card .card-body{
+    background-color: #f4f4f4;
+    border-radius: .25rem;
+	transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
+}
+
+.nuestros-servicios .card .card-body span{
+    height: 5rem;
+}
+
+.nuestros-servicios .card .card-body span .card-icon{
+    font-size: 4rem;
+}
+
+.nuestros-servicios .card .card-body p{
+    height: 100%;
 }
 
 .el-club{
@@ -69,8 +87,9 @@ html, body {
 
 .el-equipo .card{
     border: none;
+    background: transparent;
     padding: 5px;
-	transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
+    transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
 }
 
 .el-equipo .card img.card-img-top{
@@ -178,6 +197,7 @@ footer p{
     /* background: url("/img/banner.jpg") no-repeat center -20rem; */
     background: url("/img/banner-compressor.jpg") no-repeat center -20rem;
     min-height: 15rem;
+    background-position: center -70px;
     filter: brightness(50%);
 }
 
@@ -250,7 +270,7 @@ footer p{
     .parallax {
         min-height: 25rem;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center 50px;
         background-size: cover;
     }    
 
@@ -290,24 +310,6 @@ footer p{
         top: 8rem;
     }
 
-    .nuestros-servicios .card:first-of-type,
-    .nuestros-servicios .card:nth-of-type(3),
-    .nuestros-servicios .card:nth-of-type(5),
-    .el-equipo .card:first-of-type,
-    .el-equipo .card:nth-of-type(2),
-    .el-equipo .card:nth-of-type(4),
-    .el-equipo .card:nth-of-type(5),
-    .el-equipo .card:nth-of-type(7){
-        margin-right: 1.5rem !important;
-    }
-
-    .nuestros-servicios .card:nth-of-type(2),
-    .nuestros-servicios .card:nth-of-type(4),
-    .nuestros-servicios .card:nth-of-type(6),
-    .nuestros-servicios .card:last-of-type{
-        margin-right: 0 !important;
-    }
-
     .el-equipo .card img.card-img-top{
         height: 250px;
     }
@@ -342,6 +344,7 @@ footer p{
         background-position: center;
         background-size: cover;
     }
+    
     .banner-info h2{
         font-size: 4rem;
         top: 7rem;
@@ -363,34 +366,17 @@ footer p{
         font-size: 1.7rem;
         outline: none !important;
     }
-
-    .nuestros-servicios .card:hover{
-        /* background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%); */
-        background-color:#e9ecef;
-    }
     
-    .nuestros-servicios .card-body:hover{
-        /* background: linear-gradient(to bottom, rgba(0,197,170,1) 0%, rgba(60,105,205,1) 100%); */
-        background-color:#e9ecef;
+    .nuestros-servicios .card:hover .card-body{
+        background-color: white;
     }
 
-    .nuestros-servicios .card:first-of-type,
-    .nuestros-servicios .card:nth-of-type(2),
-    .nuestros-servicios .card:nth-of-type(4),
-    .nuestros-servicios .card:nth-of-type(5),
-    .el-equipo .card:first-of-type,
-    .el-equipo .card:nth-of-type(2),
-    .el-equipo .card:nth-of-type(4),
-    .el-equipo .card:nth-of-type(5){
-        margin-right: 1.5rem !important;
+    .nuestros-servicios .card .card-body span{
+        height: fit-content;
     }
 
-    .nuestros-servicios .card:nth-of-type(3),
-    .nuestros-servicios .card:last-of-type,
-    .el-equipo .card:nth-of-type(3),
-    .el-equipo .card:nth-of-type(6),
-    .el-equipo .card:last-of-type{
-        margin-right: 0 !important;
+    .nuestros-servicios .card .card-body span .card-icon{
+        font-size: 6rem;
     }
     
     .el-equipo .card:hover div{
@@ -401,6 +387,15 @@ footer p{
     .lista-solucion li:hover{
         transition: all .4s cubic-bezier(0.01, 0.49, 0.44, 1);
         font-weight: bold;
+    }
+
+    .galeria .row{
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+
+    .galeria .row div{
+        min-width: 33%;
     }
 
     .formContent{
