@@ -4,6 +4,7 @@
 @extends('layout.index')
 
 @section('css')
+    <link href="{{asset('css/galeria/baguetteBox.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/galeria/grid/gallery-grid.css')}}" rel="stylesheet">
     <link href="{{asset('css/web/inicio.css')}}" rel="stylesheet">
 @endsection

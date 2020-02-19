@@ -327,6 +327,17 @@ footer p{
         padding-bottom: 2.7rem !important;
     }
 
+    .tz-gallery .lightbox img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #baguetteBox-overlay .full-image img{
+        height: auto !important;
+        width: auto !important;
+    }
+
     .enviarForm{
         width: 10rem;
     }
