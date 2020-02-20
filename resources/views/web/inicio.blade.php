@@ -241,19 +241,31 @@
 
             @if(count($gallery))
                 <div id="galeria" class="gallery-container col-12 col-lg-10 p-0 mt-4 mx-md-auto">
-                    <h2 class="text-center m-0">Galería de fotos</h2>
+                    <h2 class="text-center m-0">Galería de imagenes</h2>
                     <div class="tz-gallery galeria p-0">
                         <div class="row py-4 px-3">
                             @for($i = 0; $i < count($gallery); $i++)
-                                <div class="col-sm-6 col-md-4 mb-4">
-                                    <a class="lightbox" href="{{asset($gallery[$i])}}">
-                                        <img class="mb-0" src="{{asset($gallery[$i])}}" alt="Park">
-                                    </a>
-                                </div>
+                                @if($i < 3)
+                                    <div class="col-sm-6 col-md-4 mb-4">
+                                        <a class="lightbox" href="{{asset($gallery[$i])}}">
+                                            <img class="mb-0" src="{{asset($gallery[$i])}}" alt="Park">
+                                        </a>
+                                    </div>
+                                @else
+                                    <div class="col-sm-6 col-md-4 my-4 d-none">
+                                        <a class="lightbox" href="{{asset($gallery[$i])}}"></a>
+                                    </div>
+                                @endif
                             @endfor
                         </div>
                     </div> 
                 </div>
+
+                @if(count($gallery) >= 3)
+                    <div class="col-12 d-flex justify-content-center mb-4 pb-4">
+                        <a class="btn btn-primary load_gallery" href="#">Ver más</a>
+                    </div>
+                @endif
             @endif
 
 

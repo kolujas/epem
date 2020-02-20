@@ -9,7 +9,7 @@
         /** Carga la seccion principal. */
         public function inicio(){
             $gallery = collect([]);
-            foreach (Storage::files('public/gallery') as $filename) {
+            foreach(Storage::files('public/gallery') as $filename){
                 $gallery->push(Storage::url($filename));
             }
             return view('web.inicio', ['gallery' => $gallery]);

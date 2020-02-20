@@ -25,4 +25,12 @@ var myElement = document.querySelector("#header");
 // construct an instance of Headroom, passing the element
 var headroom  = new Headroom(myElement);
 // initialise
-headroom.init(); 
+headroom.init();
+
+if(document.querySelector('.load_gallery')){
+    document.querySelector('.load_gallery').addEventListener('click', function(e){
+        e.preventDefault();
+        let lightboxes = document.querySelectorAll('.lightbox');
+        lightboxes[3].click();
+    });
+}
